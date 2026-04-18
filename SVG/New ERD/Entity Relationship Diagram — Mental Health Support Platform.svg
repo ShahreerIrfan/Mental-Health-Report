@@ -1,89 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 1380" style="width:100%;font-family:'Segoe UI',Calibri,Arial,sans-serif;background:#f8fafe;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 1350" style="width:100%;font-family:'Segoe UI',Calibri,Arial,sans-serif;background:#f8fafe;">
   <defs>
-    <!-- Crow's Foot Markers (One) -->
-    <marker id="one" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <line x1="14" y1="4" x2="14" y2="16" stroke="#546e7a" stroke-width="2.5"/>
-    </marker>
-    <!-- Crow's Foot Markers (Many) -->
-    <marker id="many" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
-      <line x1="18" y1="10" x2="4" y2="2" stroke="#546e7a" stroke-width="2"/>
-      <line x1="18" y1="10" x2="4" y2="10" stroke="#546e7a" stroke-width="2"/>
-      <line x1="18" y1="10" x2="4" y2="18" stroke="#546e7a" stroke-width="2"/>
-    </marker>
-    <!-- One-mandatory marker (line + circle) -->
-    <marker id="oneOnly" viewBox="0 0 24 20" refX="22" refY="10" markerWidth="14" markerHeight="14" orient="auto-start-reverse">
-      <line x1="18" y1="4" x2="18" y2="16" stroke="#546e7a" stroke-width="2.2"/>
-      <line x1="12" y1="4" x2="12" y2="16" stroke="#546e7a" stroke-width="2.2"/>
-    </marker>
-    <!-- Many-mandatory marker -->
-    <marker id="manyMandatory" viewBox="0 0 24 20" refX="22" refY="10" markerWidth="16" markerHeight="16" orient="auto-start-reverse">
-      <line x1="22" y1="10" x2="8" y2="2" stroke="#546e7a" stroke-width="2"/>
-      <line x1="22" y1="10" x2="8" y2="10" stroke="#546e7a" stroke-width="2"/>
-      <line x1="22" y1="10" x2="8" y2="18" stroke="#546e7a" stroke-width="2"/>
-      <line x1="6" y1="3" x2="6" y2="17" stroke="#546e7a" stroke-width="2"/>
-    </marker>
-    <!-- Gradients -->
     <linearGradient id="headerBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1565c0"/>
-      <stop offset="100%" stop-color="#0d47a1"/>
+      <stop offset="0%" stop-color="#1565c0"/><stop offset="100%" stop-color="#0d47a1"/>
     </linearGradient>
     <linearGradient id="entityHeader" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1976d2"/>
-      <stop offset="100%" stop-color="#1565c0"/>
+      <stop offset="0%" stop-color="#1976d2"/><stop offset="100%" stop-color="#1565c0"/>
     </linearGradient>
     <linearGradient id="entityHeaderGreen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2e7d32"/>
-      <stop offset="100%" stop-color="#1b5e20"/>
+      <stop offset="0%" stop-color="#2e7d32"/><stop offset="100%" stop-color="#1b5e20"/>
     </linearGradient>
     <linearGradient id="entityHeaderOrange" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#e65100"/>
-      <stop offset="100%" stop-color="#bf360c"/>
+      <stop offset="0%" stop-color="#e65100"/><stop offset="100%" stop-color="#bf360c"/>
     </linearGradient>
     <linearGradient id="entityHeaderPurple" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7b1fa2"/>
-      <stop offset="100%" stop-color="#6a1b9a"/>
+      <stop offset="0%" stop-color="#7b1fa2"/><stop offset="100%" stop-color="#6a1b9a"/>
     </linearGradient>
     <linearGradient id="entityHeaderTeal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00838f"/>
-      <stop offset="100%" stop-color="#006064"/>
+      <stop offset="0%" stop-color="#00838f"/><stop offset="100%" stop-color="#006064"/>
     </linearGradient>
     <linearGradient id="entityHeaderRed" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#c62828"/>
-      <stop offset="100%" stop-color="#b71c1c"/>
+      <stop offset="0%" stop-color="#c62828"/><stop offset="100%" stop-color="#b71c1c"/>
     </linearGradient>
-    <!-- Shadows -->
     <filter id="entityShadow" x="-4%" y="-4%" width="110%" height="115%">
       <feDropShadow dx="2" dy="3" stdDeviation="4" flood-opacity="0.15" flood-color="#37474f"/>
     </filter>
-    <filter id="titleShadow" x="-2%" y="-2%" width="104%" height="108%">
-      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.1" flood-color="#000"/>
-    </filter>
   </defs>
 
-  <!-- ═══════════ BACKGROUND ═══════════ -->
-  <rect width="1520" height="1380" rx="12" fill="#f8fafe"/>
+  <!-- Background -->
+  <rect width="1520" height="1350" fill="#f8fafe"/>
 
   <!-- Title Bar -->
   <rect x="0" y="0" width="1520" height="56" rx="12" fill="url(#headerBg)"/>
   <rect x="0" y="28" width="1520" height="28" fill="url(#headerBg)"/>
   <text x="760" y="37" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff" letter-spacing="0.5">Entity Relationship Diagram — Mental Health Support Platform</text>
 
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 1: Users, Profiles, Appointments, ClinicalRecords, ClinicalDocuments -->
-  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ROW 1 ENTITIES                         -->
+  <!-- ═══════════════════════════════════════ -->
 
-  <!-- ══ ENTITY: Users ══ -->
+  <!-- Users -->
   <g transform="translate(40, 90)" filter="url(#entityShadow)">
     <rect width="210" height="210" rx="8" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeader)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeader)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Users</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Users</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#1565c0" stroke-width="1"/>
-    <!-- PK -->
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  user_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
-    <!-- Attributes -->
     <text x="16" y="74" font-size="9" fill="#37474f">email</text><text x="130" y="74" font-size="9" fill="#78909c">VARCHAR(255)</text>
     <text x="16" y="90" font-size="9" fill="#37474f">password_hash</text><text x="130" y="90" font-size="9" fill="#78909c">TEXT</text>
     <text x="16" y="106" font-size="9" fill="#37474f">role</text><text x="130" y="106" font-size="9" fill="#78909c">ENUM</text>
@@ -94,12 +58,12 @@
     <text x="16" y="186" font-size="9" fill="#37474f">last_login</text><text x="130" y="186" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: Profiles ══ -->
+  <!-- Profiles -->
   <g transform="translate(330, 90)" filter="url(#entityShadow)">
     <rect width="210" height="175" rx="8" fill="#ffffff" stroke="#1565c0" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeader)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeader)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Profiles</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Profiles</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#1565c0" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  profile_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -111,12 +75,12 @@
     <text x="16" y="144" font-size="9" fill="#37474f">updated_at</text><text x="130" y="144" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: Appointments ══ -->
+  <!-- Appointments -->
   <g transform="translate(620, 90)" filter="url(#entityShadow)">
     <rect width="220" height="225" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderGreen)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderGreen)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Appointments</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Appointments</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#2e7d32" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  appt_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -131,12 +95,12 @@
     <text x="16" y="192" font-size="9" fill="#37474f">auto_cancelled</text><text x="140" y="192" font-size="9" fill="#78909c">BOOLEAN</text>
   </g>
 
-  <!-- ══ ENTITY: ClinicalRecords ══ -->
+  <!-- ClinicalRecords -->
   <g transform="translate(920, 90)" filter="url(#entityShadow)">
     <rect width="220" height="195" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderGreen)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderGreen)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ClinicalRecords</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ClinicalRecords</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#2e7d32" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  record_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -149,12 +113,12 @@
     <text x="16" y="160" font-size="9" fill="#37474f">created_at</text><text x="140" y="160" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: ClinicalDocuments ══ -->
+  <!-- ClinicalDocuments -->
   <g transform="translate(1220, 90)" filter="url(#entityShadow)">
     <rect width="220" height="175" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderGreen)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderGreen)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ClinicalDocuments</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ClinicalDocuments</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#2e7d32" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  doc_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -166,70 +130,16 @@
     <text x="16" y="144" font-size="9" fill="#37474f">validated</text><text x="140" y="144" font-size="9" fill="#78909c">BOOLEAN</text>
   </g>
 
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 1 RELATIONSHIP LINES with Crow's Foot Notation -->
-  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ROW 2 ENTITIES                         -->
+  <!-- ═══════════════════════════════════════ -->
 
-  <!-- Users ──||──── Profiles  (1:1) -->
-  <line x1="250" y1="170" x2="330" y2="170" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" side at Users -->
-  <line x1="258" y1="162" x2="258" y2="178" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="264" y1="162" x2="264" y2="178" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- "1" side at Profiles -->
-  <line x1="322" y1="162" x2="322" y2="178" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="316" y1="162" x2="316" y2="178" stroke="#546e7a" stroke-width="2.5"/>
-  <rect x="270" y="160" width="42" height="16" rx="4" fill="#ffffff" stroke="none"/>
-  <text x="291" y="172" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">1 : 1</text>
-
-  <!-- Users ──|──<  Appointments  (1:N)  via patient_id -->
-  <line x1="250" y1="200" x2="560" y2="200" stroke="#546e7a" stroke-width="2" opacity="0.6"/>
-  <line x1="560" y1="200" x2="620" y2="170" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" side at Users -->
-  <line x1="258" y1="192" x2="258" y2="208" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="264" y1="192" x2="264" y2="208" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot (many) at Appointments -->
-  <line x1="620" y1="170" x2="606" y2="160" stroke="#546e7a" stroke-width="2"/>
-  <line x1="620" y1="170" x2="606" y2="170" stroke="#546e7a" stroke-width="2"/>
-  <line x1="620" y1="170" x2="606" y2="180" stroke="#546e7a" stroke-width="2"/>
-  <rect x="400" y="188" width="42" height="16" rx="4" fill="#ffffff" stroke="none"/>
-  <text x="421" y="200" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
-
-  <!-- Users ──|──< ClinicalRecords (1:N) via patient_id -->
-  <line x1="250" y1="230" x2="560" y2="230" stroke="#546e7a" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.5"/>
-  <line x1="560" y1="230" x2="920" y2="190" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users -->
-  <line x1="258" y1="222" x2="258" y2="238" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="264" y1="222" x2="264" y2="238" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at ClinicalRecords -->
-  <line x1="920" y1="190" x2="906" y2="180" stroke="#546e7a" stroke-width="2"/>
-  <line x1="920" y1="190" x2="906" y2="190" stroke="#546e7a" stroke-width="2"/>
-  <line x1="920" y1="190" x2="906" y2="200" stroke="#546e7a" stroke-width="2"/>
-  <rect x="670" y="200" width="42" height="16" rx="4" fill="#ffffff" stroke="none"/>
-  <text x="691" y="212" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
-
-  <!-- ClinicalRecords ──|──< ClinicalDocuments (1:N) -->
-  <line x1="1140" y1="180" x2="1220" y2="180" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at ClinicalRecords -->
-  <line x1="1148" y1="172" x2="1148" y2="188" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="1154" y1="172" x2="1154" y2="188" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at ClinicalDocuments -->
-  <line x1="1220" y1="180" x2="1206" y2="170" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1220" y1="180" x2="1206" y2="180" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1220" y1="180" x2="1206" y2="190" stroke="#546e7a" stroke-width="2"/>
-  <rect x="1166" y="168" width="42" height="16" rx="4" fill="#ffffff" stroke="none"/>
-  <text x="1187" y="180" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
-
-
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 2: ChatMessages, MoodEntries, ChatbotTranscripts, Notifications, EmergencyLogs -->
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-
-  <!-- ══ ENTITY: ChatMessages ══ -->
+  <!-- ChatMessages -->
   <g transform="translate(40, 400)" filter="url(#entityShadow)">
     <rect width="210" height="175" rx="8" fill="#ffffff" stroke="#7b1fa2" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeaderPurple)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeaderPurple)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ChatMessages</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ChatMessages</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#7b1fa2" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  message_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -241,12 +151,12 @@
     <text x="16" y="144" font-size="9" fill="#37474f">soft_deleted</text><text x="130" y="144" font-size="9" fill="#78909c">BOOLEAN</text>
   </g>
 
-  <!-- ══ ENTITY: MoodEntries ══ -->
+  <!-- MoodEntries -->
   <g transform="translate(330, 400)" filter="url(#entityShadow)">
     <rect width="210" height="175" rx="8" fill="#ffffff" stroke="#7b1fa2" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeaderPurple)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeaderPurple)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">MoodEntries</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">MoodEntries</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#7b1fa2" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  mood_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -258,12 +168,12 @@
     <text x="16" y="144" font-size="9" fill="#37474f">created_at</text><text x="130" y="144" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: ChatbotTranscripts ══ -->
+  <!-- ChatbotTranscripts -->
   <g transform="translate(620, 400)" filter="url(#entityShadow)">
     <rect width="220" height="175" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderOrange)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderOrange)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ChatbotTranscripts</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ChatbotTranscripts</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#e65100" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  transcript_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -275,12 +185,12 @@
     <text x="16" y="144" font-size="9" fill="#37474f">escalated</text><text x="140" y="144" font-size="9" fill="#78909c">BOOLEAN</text>
   </g>
 
-  <!-- ══ ENTITY: Notifications ══ -->
+  <!-- Notifications -->
   <g transform="translate(920, 400)" filter="url(#entityShadow)">
     <rect width="220" height="195" rx="8" fill="#ffffff" stroke="#e65100" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderOrange)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderOrange)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Notifications</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Notifications</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#e65100" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  notif_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -294,12 +204,12 @@
     <text x="16" y="176" font-size="9" fill="#37474f">created_at</text><text x="140" y="176" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: EmergencyLogs ══ -->
+  <!-- EmergencyLogs -->
   <g transform="translate(1220, 400)" filter="url(#entityShadow)">
     <rect width="220" height="155" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderRed)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderRed)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">EmergencyLogs</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">EmergencyLogs</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#c62828" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  log_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -310,90 +220,16 @@
     <text x="16" y="128" font-size="9" fill="#37474f">resolved</text><text x="140" y="128" font-size="9" fill="#78909c">BOOLEAN</text>
   </g>
 
+  <!-- ═══════════════════════════════════════ -->
+  <!-- ROW 3 ENTITIES                         -->
+  <!-- ═══════════════════════════════════════ -->
 
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 2 VERTICAL RELATIONSHIP LINES (Users → Row 2 entities) -->
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-
-  <!-- Users ──|──< ChatMessages (1:N) -->
-  <line x1="120" y1="300" x2="120" y2="400" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users (bottom) -->
-  <line x1="112" y1="308" x2="128" y2="308" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="112" y1="314" x2="128" y2="314" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at ChatMessages (top) -->
-  <line x1="120" y1="400" x2="110" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="120" y1="400" x2="120" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="120" y1="400" x2="130" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <rect x="126" y="342" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
-  <text x="147" y="354" text-anchor="middle" font-size="9" font-weight="bold" fill="#7b1fa2">1 : N</text>
-
-  <!-- Users ──|──< MoodEntries (1:N) -->
-  <line x1="200" y1="300" x2="200" y2="340" stroke="#546e7a" stroke-width="1.5" opacity="0.5"/>
-  <line x1="200" y1="340" x2="435" y2="340" stroke="#546e7a" stroke-width="1.5" opacity="0.5"/>
-  <line x1="435" y1="340" x2="435" y2="400" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users -->
-  <line x1="192" y1="308" x2="208" y2="308" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="192" y1="314" x2="208" y2="314" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at MoodEntries -->
-  <line x1="435" y1="400" x2="425" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="435" y1="400" x2="435" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="435" y1="400" x2="445" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <rect x="280" y="328" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
-  <text x="301" y="340" text-anchor="middle" font-size="9" font-weight="bold" fill="#7b1fa2">1 : N</text>
-
-  <!-- Users ──|──< ChatbotTranscripts (1:N) -->
-  <line x1="145" y1="300" x2="145" y2="350" stroke="#546e7a" stroke-width="1.5" opacity="0.4"/>
-  <line x1="145" y1="350" x2="730" y2="350" stroke="#546e7a" stroke-width="1.5" opacity="0.4"/>
-  <line x1="730" y1="350" x2="730" y2="400" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users -->
-  <line x1="137" y1="308" x2="153" y2="308" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="137" y1="314" x2="153" y2="314" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at ChatbotTranscripts -->
-  <line x1="730" y1="400" x2="720" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="730" y1="400" x2="730" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="730" y1="400" x2="740" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <rect x="420" y="338" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
-  <text x="441" y="350" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">1 : N</text>
-
-  <!-- Users ──|──< Notifications (1:N) -->
-  <line x1="170" y1="300" x2="170" y2="360" stroke="#546e7a" stroke-width="1.5" opacity="0.35"/>
-  <line x1="170" y1="360" x2="1030" y2="360" stroke="#546e7a" stroke-width="1.5" opacity="0.35"/>
-  <line x1="1030" y1="360" x2="1030" y2="400" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users -->
-  <line x1="162" y1="308" x2="178" y2="308" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="162" y1="314" x2="178" y2="314" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at Notifications -->
-  <line x1="1030" y1="400" x2="1020" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1030" y1="400" x2="1030" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1030" y1="400" x2="1040" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <rect x="580" y="348" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
-  <text x="601" y="360" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">1 : N</text>
-
-  <!-- Users ──|──< EmergencyLogs (1:N) -->
-  <line x1="95" y1="300" x2="95" y2="370" stroke="#546e7a" stroke-width="1.5" opacity="0.3"/>
-  <line x1="95" y1="370" x2="1330" y2="370" stroke="#546e7a" stroke-width="1.5" opacity="0.3"/>
-  <line x1="1330" y1="370" x2="1330" y2="400" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Users -->
-  <line x1="87" y1="308" x2="103" y2="308" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="87" y1="314" x2="103" y2="314" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at EmergencyLogs -->
-  <line x1="1330" y1="400" x2="1320" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1330" y1="400" x2="1330" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1330" y1="400" x2="1340" y2="386" stroke="#546e7a" stroke-width="2"/>
-  <rect x="700" y="358" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
-  <text x="721" y="370" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828">1 : N</text>
-
-
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 3: Resources, AnalyticsData, AuditLogs, ConsentRecords, SystemBackups -->
-  <!-- ═══════════════════════════════════════════════════════════════ -->
-
-  <!-- ══ ENTITY: Resources ══ -->
+  <!-- Resources -->
   <g transform="translate(40, 700)" filter="url(#entityShadow)">
     <rect width="210" height="175" rx="8" fill="#ffffff" stroke="#00838f" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeaderTeal)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeaderTeal)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">Resources</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Resources</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#00838f" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  resource_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -404,12 +240,12 @@
     <text x="16" y="140" font-size="9" fill="#37474f">view_count</text><text x="130" y="140" font-size="9" fill="#78909c">INT</text>
   </g>
 
-  <!-- ══ ENTITY: AnalyticsData ══ -->
+  <!-- AnalyticsData -->
   <g transform="translate(330, 700)" filter="url(#entityShadow)">
     <rect width="210" height="160" rx="8" fill="#ffffff" stroke="#00838f" stroke-width="2"/>
     <rect width="210" height="32" rx="8" fill="url(#entityHeaderTeal)"/>
     <rect y="24" width="210" height="8" fill="url(#entityHeaderTeal)"/>
-    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">AnalyticsData</text>
+    <text x="105" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">AnalyticsData</text>
     <line x1="0" y1="32" x2="210" y2="32" stroke="#00838f" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  analytics_id  UUID</text>
     <line x1="8" y1="58" x2="202" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -419,12 +255,12 @@
     <text x="16" y="124" font-size="9" fill="#37474f">generated_at</text><text x="130" y="124" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: AuditLogs ══ -->
+  <!-- AuditLogs -->
   <g transform="translate(620, 700)" filter="url(#entityShadow)">
     <rect width="220" height="210" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderRed)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderRed)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">AuditLogs</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">AuditLogs</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#c62828" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  audit_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -438,12 +274,12 @@
     <text x="16" y="176" font-size="9" fill="#37474f">created_at</text><text x="140" y="176" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: ConsentRecords ══ -->
+  <!-- ConsentRecords -->
   <g transform="translate(920, 700)" filter="url(#entityShadow)">
     <rect width="220" height="160" rx="8" fill="#ffffff" stroke="#00838f" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderTeal)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderTeal)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">ConsentRecords</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ConsentRecords</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#00838f" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  consent_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -454,12 +290,12 @@
     <text x="16" y="128" font-size="9" fill="#37474f">changed_at</text><text x="140" y="128" font-size="9" fill="#78909c">TIMESTAMP</text>
   </g>
 
-  <!-- ══ ENTITY: SystemBackups ══ -->
+  <!-- SystemBackups -->
   <g transform="translate(1220, 700)" filter="url(#entityShadow)">
     <rect width="220" height="160" rx="8" fill="#ffffff" stroke="#c62828" stroke-width="2"/>
     <rect width="220" height="32" rx="8" fill="url(#entityHeaderRed)"/>
     <rect y="24" width="220" height="8" fill="url(#entityHeaderRed)"/>
-    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">SystemBackups</text>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">SystemBackups</text>
     <line x1="0" y1="32" x2="220" y2="32" stroke="#c62828" stroke-width="1"/>
     <text x="12" y="52" font-size="9.5" fill="#d32f2f" font-weight="bold">🔑 PK  backup_id  UUID</text>
     <line x1="8" y1="58" x2="212" y2="58" stroke="#e0e0e0" stroke-width="0.5"/>
@@ -471,38 +307,193 @@
 
 
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- ROW 2 → ROW 3 VERTICAL RELATIONSHIPS -->
+  <!-- RELATIONSHIP ARROWS (drawn LAST so they render on top)        -->
+  <!-- All lines: full opacity, solid stroke, color-coded             -->
   <!-- ═══════════════════════════════════════════════════════════════ -->
 
-  <!-- Users ──|──< AuditLogs (1:N) — from ChatbotTranscripts row down -->
-  <line x1="730" y1="575" x2="730" y2="700" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at top -->
-  <line x1="722" y1="583" x2="738" y2="583" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="722" y1="589" x2="738" y2="589" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at AuditLogs -->
-  <line x1="730" y1="700" x2="720" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <line x1="730" y1="700" x2="730" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <line x1="730" y1="700" x2="740" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <rect x="736" y="628" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
+  <!-- ─── R1: Users ──||── Profiles (1:1) ─── -->
+  <line x1="250" y1="165" x2="330" y2="165" stroke="#1565c0" stroke-width="2.5"/>
+  <!-- || at Users side -->
+  <line x1="258" y1="157" x2="258" y2="173" stroke="#1565c0" stroke-width="2.5"/>
+  <line x1="264" y1="157" x2="264" y2="173" stroke="#1565c0" stroke-width="2.5"/>
+  <!-- || at Profiles side -->
+  <line x1="322" y1="157" x2="322" y2="173" stroke="#1565c0" stroke-width="2.5"/>
+  <line x1="316" y1="157" x2="316" y2="173" stroke="#1565c0" stroke-width="2.5"/>
+  <rect x="275" y="153" width="32" height="14" rx="4" fill="#fff"/>
+  <text x="291" y="164" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">1 : 1</text>
+
+  <!-- ─── R2: Users ──|< Appointments (1:N) via patient_id ─── -->
+  <!-- Horizontal at y=200 from Users through Profiles area to Appointments -->
+  <line x1="250" y1="200" x2="580" y2="200" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="580" y1="200" x2="620" y2="164" stroke="#2e7d32" stroke-width="2.2"/>
+  <!-- || at Users -->
+  <line x1="258" y1="192" x2="258" y2="208" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="264" y1="192" x2="264" y2="208" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- Crow's foot at Appointments -->
+  <line x1="620" y1="164" x2="607" y2="156" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="620" y1="164" x2="607" y2="164" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="620" y1="164" x2="607" y2="172" stroke="#2e7d32" stroke-width="2.2"/>
+  <rect x="395" y="188" width="42" height="16" rx="4" fill="#fff"/>
+  <text x="416" y="200" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
+
+  <!-- ─── R3: Users ──|< ClinicalRecords (1:N) via patient_id ─── -->
+  <!-- Horizontal at y=230 from Users through Profiles+Appointments area to ClinicalRecords -->
+  <line x1="250" y1="230" x2="880" y2="230" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="880" y1="230" x2="920" y2="180" stroke="#2e7d32" stroke-width="2.2"/>
+  <!-- || at Users -->
+  <line x1="258" y1="222" x2="258" y2="238" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="264" y1="222" x2="264" y2="238" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- Crow's foot at ClinicalRecords -->
+  <line x1="920" y1="180" x2="907" y2="172" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="920" y1="180" x2="907" y2="180" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="920" y1="180" x2="907" y2="188" stroke="#2e7d32" stroke-width="2.2"/>
+  <rect x="560" y="218" width="42" height="16" rx="4" fill="#fff"/>
+  <text x="581" y="230" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
+
+  <!-- ─── R4: ClinicalRecords ──|< ClinicalDocuments (1:N) ─── -->
+  <line x1="1140" y1="175" x2="1220" y2="175" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- || at ClinicalRecords -->
+  <line x1="1148" y1="167" x2="1148" y2="183" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="1154" y1="167" x2="1154" y2="183" stroke="#2e7d32" stroke-width="2.5"/>
+  <!-- Crow's foot at ClinicalDocuments -->
+  <line x1="1220" y1="175" x2="1206" y2="167" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="1220" y1="175" x2="1206" y2="175" stroke="#2e7d32" stroke-width="2.2"/>
+  <line x1="1220" y1="175" x2="1206" y2="183" stroke="#2e7d32" stroke-width="2.2"/>
+  <rect x="1166" y="163" width="42" height="16" rx="4" fill="#fff"/>
+  <text x="1187" y="175" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">1 : N</text>
+
+
+  <!-- ═══ ROW 1 → ROW 2 VERTICAL CONNECTIONS ═══ -->
+
+  <!-- ─── R5: Users ──|< ChatMessages (1:N) — straight vertical ─── -->
+  <line x1="100" y1="300" x2="100" y2="400" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- || at Users bottom -->
+  <line x1="92" y1="306" x2="108" y2="306" stroke="#7b1fa2" stroke-width="2.5"/>
+  <line x1="92" y1="312" x2="108" y2="312" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- Crow's foot at ChatMessages top -->
+  <line x1="100" y1="400" x2="90" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <line x1="100" y1="400" x2="100" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <line x1="100" y1="400" x2="110" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <rect x="106" y="342" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="127" y="354" text-anchor="middle" font-size="9" font-weight="bold" fill="#7b1fa2">1 : N</text>
+
+  <!-- ─── R6: Users ──|< MoodEntries (1:N) — L-shape ─── -->
+  <polyline points="150,300 150,335 435,335 435,400" fill="none" stroke="#7b1fa2" stroke-width="2.2"/>
+  <!-- || at Users bottom -->
+  <line x1="142" y1="306" x2="158" y2="306" stroke="#7b1fa2" stroke-width="2.5"/>
+  <line x1="142" y1="312" x2="158" y2="312" stroke="#7b1fa2" stroke-width="2.5"/>
+  <!-- Crow's foot at MoodEntries top -->
+  <line x1="435" y1="400" x2="425" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <line x1="435" y1="400" x2="435" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <line x1="435" y1="400" x2="445" y2="386" stroke="#7b1fa2" stroke-width="2.2"/>
+  <rect x="258" y="323" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="279" y="335" text-anchor="middle" font-size="9" font-weight="bold" fill="#7b1fa2">1 : N</text>
+
+  <!-- ─── R7: Users ──|< ChatbotTranscripts (1:N) — L-shape ─── -->
+  <polyline points="175,300 175,350 730,350 730,400" fill="none" stroke="#e65100" stroke-width="2.2"/>
+  <!-- || at Users bottom -->
+  <line x1="167" y1="306" x2="183" y2="306" stroke="#e65100" stroke-width="2.5"/>
+  <line x1="167" y1="312" x2="183" y2="312" stroke="#e65100" stroke-width="2.5"/>
+  <!-- Crow's foot at ChatbotTranscripts top -->
+  <line x1="730" y1="400" x2="720" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <line x1="730" y1="400" x2="730" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <line x1="730" y1="400" x2="740" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <rect x="420" y="338" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="441" y="350" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">1 : N</text>
+
+  <!-- ─── R8: Users ──|< Notifications (1:N) — L-shape ─── -->
+  <polyline points="200,300 200,365 1030,365 1030,400" fill="none" stroke="#e65100" stroke-width="2.2"/>
+  <!-- || at Users bottom -->
+  <line x1="192" y1="306" x2="208" y2="306" stroke="#e65100" stroke-width="2.5"/>
+  <line x1="192" y1="312" x2="208" y2="312" stroke="#e65100" stroke-width="2.5"/>
+  <!-- Crow's foot at Notifications top -->
+  <line x1="1030" y1="400" x2="1020" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <line x1="1030" y1="400" x2="1030" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <line x1="1030" y1="400" x2="1040" y2="386" stroke="#e65100" stroke-width="2.2"/>
+  <rect x="590" y="353" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="611" y="365" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">1 : N</text>
+
+  <!-- ─── R9: Users ──|< EmergencyLogs (1:N) — L-shape ─── -->
+  <polyline points="225,300 225,380 1330,380 1330,400" fill="none" stroke="#c62828" stroke-width="2.2"/>
+  <!-- || at Users bottom -->
+  <line x1="217" y1="306" x2="233" y2="306" stroke="#c62828" stroke-width="2.5"/>
+  <line x1="217" y1="312" x2="233" y2="312" stroke="#c62828" stroke-width="2.5"/>
+  <!-- Crow's foot at EmergencyLogs top -->
+  <line x1="1330" y1="400" x2="1320" y2="386" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="1330" y1="400" x2="1330" y2="386" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="1330" y1="400" x2="1340" y2="386" stroke="#c62828" stroke-width="2.2"/>
+  <rect x="750" y="368" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="771" y="380" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828">1 : N</text>
+
+
+  <!-- ═══ ROW 2 → ROW 3 VERTICAL CONNECTIONS ═══ -->
+
+  <!-- ─── R10: Users ──|< AuditLogs (1:N) — via ChatbotTranscripts column ─── -->
+  <line x1="730" y1="575" x2="730" y2="700" stroke="#c62828" stroke-width="2.5"/>
+  <!-- || at top -->
+  <line x1="722" y1="581" x2="738" y2="581" stroke="#c62828" stroke-width="2.5"/>
+  <line x1="722" y1="587" x2="738" y2="587" stroke="#c62828" stroke-width="2.5"/>
+  <!-- Crow's foot at AuditLogs top -->
+  <line x1="730" y1="700" x2="720" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="730" y1="700" x2="730" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="730" y1="700" x2="740" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <rect x="736" y="628" width="42" height="16" rx="4" fill="#f8fafe"/>
   <text x="757" y="640" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828">1 : N</text>
 
-  <!-- Users ──|──< ConsentRecords (1:N) -->
-  <line x1="1030" y1="595" x2="1030" y2="700" stroke="#546e7a" stroke-width="2.2"/>
-  <!-- "1" at Notifications bottom -->
-  <line x1="1022" y1="603" x2="1038" y2="603" stroke="#546e7a" stroke-width="2.5"/>
-  <line x1="1022" y1="609" x2="1038" y2="609" stroke="#546e7a" stroke-width="2.5"/>
-  <!-- Crow's foot at ConsentRecords -->
-  <line x1="1030" y1="700" x2="1020" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1030" y1="700" x2="1030" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <line x1="1030" y1="700" x2="1040" y2="686" stroke="#546e7a" stroke-width="2"/>
-  <rect x="1036" y="640" width="42" height="16" rx="4" fill="#f8fafe" stroke="none"/>
+  <!-- ─── R11: Users ──|< ConsentRecords (1:N) — via Notifications column ─── -->
+  <line x1="1030" y1="595" x2="1030" y2="700" stroke="#00838f" stroke-width="2.5"/>
+  <!-- || at top -->
+  <line x1="1022" y1="601" x2="1038" y2="601" stroke="#00838f" stroke-width="2.5"/>
+  <line x1="1022" y1="607" x2="1038" y2="607" stroke="#00838f" stroke-width="2.5"/>
+  <!-- Crow's foot at ConsentRecords top -->
+  <line x1="1030" y1="700" x2="1020" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="1030" y1="700" x2="1030" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="1030" y1="700" x2="1040" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <rect x="1036" y="640" width="42" height="16" rx="4" fill="#f8fafe"/>
   <text x="1057" y="652" text-anchor="middle" font-size="9" font-weight="bold" fill="#00838f">1 : N</text>
 
 
+  <!-- ─── R12: Users ──|< Resources (1:N) — via ChatMessages col down to Resources ─── -->
+  <polyline points="70,575 70,640 145,640 145,700" fill="none" stroke="#00838f" stroke-width="2.5"/>
+  <!-- || at ChatMessages bottom -->
+  <line x1="62" y1="581" x2="78" y2="581" stroke="#00838f" stroke-width="2.5"/>
+  <line x1="62" y1="587" x2="78" y2="587" stroke="#00838f" stroke-width="2.5"/>
+  <!-- Crow's foot at Resources top -->
+  <line x1="145" y1="700" x2="135" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="145" y1="700" x2="145" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="145" y1="700" x2="155" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <rect x="76" y="628" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="97" y="640" text-anchor="middle" font-size="9" font-weight="bold" fill="#00838f">1 : N</text>
+
+  <!-- ─── R13: Users ──|< AnalyticsData (1:N) — via MoodEntries col down to AnalyticsData ─── -->
+  <polyline points="435,575 435,640 435,700" fill="none" stroke="#00838f" stroke-width="2.5"/>
+  <!-- || at MoodEntries bottom -->
+  <line x1="427" y1="581" x2="443" y2="581" stroke="#00838f" stroke-width="2.5"/>
+  <line x1="427" y1="587" x2="443" y2="587" stroke="#00838f" stroke-width="2.5"/>
+  <!-- Crow's foot at AnalyticsData top -->
+  <line x1="435" y1="700" x2="425" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="435" y1="700" x2="435" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <line x1="435" y1="700" x2="445" y2="686" stroke="#00838f" stroke-width="2.2"/>
+  <rect x="441" y="628" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="462" y="640" text-anchor="middle" font-size="9" font-weight="bold" fill="#00838f">1 : N</text>
+
+  <!-- ─── R14: Users ──|< SystemBackups (1:N) — via EmergencyLogs col down to SystemBackups ─── -->
+  <polyline points="1330,555 1330,640 1330,700" fill="none" stroke="#c62828" stroke-width="2.5"/>
+  <!-- || at EmergencyLogs bottom -->
+  <line x1="1322" y1="561" x2="1338" y2="561" stroke="#c62828" stroke-width="2.5"/>
+  <line x1="1322" y1="567" x2="1338" y2="567" stroke="#c62828" stroke-width="2.5"/>
+  <!-- Crow's foot at SystemBackups top -->
+  <line x1="1330" y1="700" x2="1320" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="1330" y1="700" x2="1330" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <line x1="1330" y1="700" x2="1340" y2="686" stroke="#c62828" stroke-width="2.2"/>
+  <rect x="1336" y="618" width="42" height="16" rx="4" fill="#f8fafe"/>
+  <text x="1357" y="630" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828">1 : N</text>
+
+
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <!-- LEGEND -->
+  <!-- LEGEND                                                         -->
   <!-- ═══════════════════════════════════════════════════════════════ -->
-  <rect x="40" y="950" width="1440" height="300" rx="14" fill="#ffffff" stroke="#cfd8dc" stroke-width="1.5" filter="url(#entityShadow)"/>
+  <rect x="40" y="950" width="1440" height="280" rx="14" fill="#ffffff" stroke="#cfd8dc" stroke-width="1.5" filter="url(#entityShadow)"/>
   <rect x="40" y="950" width="1440" height="38" rx="14" fill="url(#headerBg)"/>
   <rect x="40" y="976" width="1440" height="12" fill="url(#headerBg)"/>
   <text x="760" y="976" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">Legend — ERD Notation Guide</text>
@@ -529,41 +520,34 @@
 
   <!-- Key Symbols -->
   <text x="440" y="1020" font-size="12" font-weight="bold" fill="#1a237e">Key Symbols:</text>
-
   <text x="440" y="1050" font-size="11" fill="#d32f2f" font-weight="bold">🔑 PK</text>
   <text x="510" y="1050" font-size="10" fill="#37474f">Primary Key — Unique identifier for each record</text>
-
   <text x="440" y="1080" font-size="11" fill="#1565c0" font-weight="600">🔗 FK</text>
   <text x="510" y="1080" font-size="10" fill="#37474f">Foreign Key — References another table's primary key</text>
 
-  <!-- Color Legend -->
+  <!-- Entity Categories -->
   <text x="80" y="1120" font-size="12" font-weight="bold" fill="#1a237e">Entity Categories:</text>
-
   <rect x="80" y="1135" width="20" height="14" rx="4" fill="url(#entityHeader)"/>
   <text x="110" y="1147" font-size="10" fill="#37474f">Core / User (Users, Profiles)</text>
-
   <rect x="80" y="1158" width="20" height="14" rx="4" fill="url(#entityHeaderGreen)"/>
   <text x="110" y="1170" font-size="10" fill="#37474f">Clinical (Appointments, ClinicalRecords, ClinicalDocuments)</text>
-
   <rect x="80" y="1181" width="20" height="14" rx="4" fill="url(#entityHeaderPurple)"/>
   <text x="110" y="1193" font-size="10" fill="#37474f">Communication (ChatMessages, MoodEntries)</text>
 
   <rect x="580" y="1135" width="20" height="14" rx="4" fill="url(#entityHeaderOrange)"/>
   <text x="610" y="1147" font-size="10" fill="#37474f">AI &amp; Notifications (ChatbotTranscripts, Notifications)</text>
-
   <rect x="580" y="1158" width="20" height="14" rx="4" fill="url(#entityHeaderRed)"/>
   <text x="610" y="1170" font-size="10" fill="#37474f">Security &amp; System (EmergencyLogs, AuditLogs, SystemBackups)</text>
-
   <rect x="580" y="1181" width="20" height="14" rx="4" fill="url(#entityHeaderTeal)"/>
   <text x="610" y="1193" font-size="10" fill="#37474f">Privacy &amp; Data (Resources, AnalyticsData, ConsentRecords)</text>
 
-  <!-- Relationship Summary -->
-  <text x="80" y="1225" font-size="12" font-weight="bold" fill="#1a237e">Relationships Summary:</text>
-  <text x="80" y="1242" font-size="9.5" fill="#455a64">Users ─||─ Profiles (1:1)  •  Users ─|&lt; Appointments (1:N)  •  Users ─|&lt; ClinicalRecords (1:N)  •  ClinicalRecords ─|&lt; ClinicalDocuments (1:N)</text>
-  <text x="80" y="1258" font-size="9.5" fill="#455a64">Users ─|&lt; ChatMessages (1:N)  •  Users ─|&lt; MoodEntries (1:N)  •  Users ─|&lt; ChatbotTranscripts (1:N)  •  Users ─|&lt; Notifications (1:N)</text>
-  <text x="80" y="1274" font-size="9.5" fill="#455a64">Users ─|&lt; EmergencyLogs (1:N)  •  Users ─|&lt; AuditLogs (1:N)  •  Users ─|&lt; ConsentRecords (1:N)  •  Total: 15 Entities  •  11 Relationships</text>
+  <!-- Relationships Summary -->
+  <text x="80" y="1215" font-size="12" font-weight="bold" fill="#1a237e">Relationships Summary:</text>
+  <text x="80" y="1232" font-size="9.5" fill="#455a64">Users ─||─ Profiles (1:1)  •  Users ─|&lt; Appointments (1:N)  •  Users ─|&lt; ClinicalRecords (1:N)  •  ClinicalRecords ─|&lt; ClinicalDocuments (1:N)</text>
+  <text x="80" y="1248" font-size="9.5" fill="#455a64">Users ─|&lt; ChatMessages (1:N)  •  Users ─|&lt; MoodEntries (1:N)  •  Users ─|&lt; ChatbotTranscripts (1:N)  •  Users ─|&lt; Notifications (1:N)</text>
+  <text x="80" y="1264" font-size="9.5" fill="#455a64">Users ─|&lt; EmergencyLogs (1:N)  •  Users ─|&lt; AuditLogs (1:N)  •  Users ─|&lt; ConsentRecords (1:N)  •  Users ─|&lt; Resources (1:N)  •  Users ─|&lt; AnalyticsData (1:N)</text>
+  <text x="80" y="1280" font-size="9.5" fill="#455a64">Users ─|&lt; SystemBackups (1:N)  •  Total: 15 Entities  •  14 Relationships</text>
 
   <!-- Footer -->
-  <rect x="0" y="1340" width="1520" height="40" rx="0" fill="url(#headerBg)" opacity="0.06"/>
-  <text x="760" y="1365" text-anchor="middle" font-size="9.5" fill="#90a4ae" font-style="italic">Figure 9.1 — Entity Relationship Diagram  |  Mental Health Support Platform  |  Mel23 Tech Solution  |  © 2026 Kent Institute of Technology Australia</text>
+  <text x="760" y="1330" text-anchor="middle" font-size="9.5" fill="#90a4ae" font-style="italic">Figure 9.1 — Entity Relationship Diagram  |  Mental Health Support Platform  |  Mel23 Tech Solution  |  © 2026 Kent Institute of Technology Australia</text>
 </svg>

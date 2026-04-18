@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 1100" style="width:100%;font-family:'Segoe UI',Calibri,Arial,sans-serif;">
+  <defs>
+    <!-- Arrow marker (solid filled) for association -->
+    <marker id="arrowSolid" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="10" markerHeight="8" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#546e7a"/>
+    </marker>
+    <!-- Diamond marker for composition -->
+    <marker id="diamondFill" viewBox="0 0 14 8" refX="0" refY="4" markerWidth="12" markerHeight="8" orient="auto">
+      <polygon points="0 4,7 0,14 4,7 8" fill="#1565c0" stroke="#1565c0" stroke-width="0.5"/>
+    </marker>
+    <!-- Open diamond for aggregation -->
+    <marker id="diamondOpen" viewBox="0 0 14 8" refX="0" refY="4" markerWidth="12" markerHeight="8" orient="auto">
+      <polygon points="0 4,7 0,14 4,7 8" fill="#fff" stroke="#546e7a" stroke-width="1.5"/>
+    </marker>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1260" height="1100" fill="#ffffff"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1260" height="48" rx="0" fill="#2471A3"/>
+  <text x="630" y="31" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff" letter-spacing="0.5">UML Class Diagram — Mental Health Support Platform</text>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- ROW 1: User, Profile, Appointment, ClinicalRecord  -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <!-- ══ CLASS: User ══ -->
+  <g transform="translate(30,70)">
+    <rect width="230" height="210" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">User</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+email: string</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+password_hash: string</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+role: Role</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+verified: boolean</text>
+    <text x="12" y="116" font-size="9.5" fill="#333">+locked: boolean</text>
+    <line x1="0" y1="124" x2="230" y2="124" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="140" font-size="9.5" fill="#1a5276">+register(data): User</text>
+    <text x="12" y="154" font-size="9.5" fill="#1a5276">+login(email,pwd): JWT</text>
+    <text x="12" y="168" font-size="9.5" fill="#1a5276">+verifyOTP(code): boolean</text>
+    <text x="12" y="182" font-size="9.5" fill="#1a5276">+resetPassword(): void</text>
+    <text x="12" y="196" font-size="9.5" fill="#1a5276">+deleteAccount(): void</text>
+  </g>
+
+  <!-- ══ CLASS: Profile ══ -->
+  <g transform="translate(330,70)">
+    <rect width="210" height="168" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="210" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="210" height="6" fill="#2471A3"/>
+    <text x="105" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Profile</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+profile_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+display_name: string</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+avatar_url: string</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+language: string</text>
+    <line x1="0" y1="110" x2="210" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+updateProfile(data): Profile</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+uploadAvatar(file): string</text>
+  </g>
+
+  <!-- ══ CLASS: Appointment ══ -->
+  <g transform="translate(620,70)">
+    <rect width="230" height="240" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Appointment</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+appt_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+patient_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+clinician_id: UUID</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+date_time: DateTime</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+status: ApptStatus</text>
+    <line x1="0" y1="110" x2="230" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+schedule(data): Appt</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+checkAvailability(): Slot[]</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+reschedule(dt): Appt</text>
+    <text x="12" y="170" font-size="9.5" fill="#1a5276">+approve(): Appt</text>
+    <text x="12" y="184" font-size="9.5" fill="#1a5276">+autoCancel(): void</text>
+    <text x="12" y="198" font-size="9.5" fill="#1a5276">+markMissed(): void</text>
+    <text x="12" y="212" font-size="9.5" fill="#1a5276">+syncCalendar(): void</text>
+    <text x="12" y="226" font-size="9.5" fill="#1a5276">+createMissed(): void</text>
+  </g>
+
+  <!-- ══ CLASS: ClinicalRecord ══ -->
+  <g transform="translate(930,70)">
+    <rect width="240" height="210" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="240" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="240" height="6" fill="#2471A3"/>
+    <text x="120" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ClinicalRecord</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+record_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+patient_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+clinician_id: UUID</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+session_notes: string</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+retention_date: Date</text>
+    <line x1="0" y1="110" x2="240" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+createNote(data): Record</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+checkConsent(pid): boolean</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+viewHistory(pid): Record[]</text>
+    <text x="12" y="170" font-size="9.5" fill="#1a5276">+uploadDoc(file): Doc</text>
+    <text x="12" y="184" font-size="9.5" fill="#1a5276">+downloadRecords(): File</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- ROW 2: ChatMessage, MoodEntry, Chatbot, Emergency  -->
+  <!-- ═══════════════════════════════════════════════════ -->
+
+  <!-- ══ CLASS: ChatMessage ══ -->
+  <g transform="translate(30,390)">
+    <rect width="230" height="196" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">ChatMessage</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+message_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+sender_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+receiver_id: UUID</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+encrypted_body: string</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+delivered: boolean</text>
+    <line x1="0" y1="110" x2="230" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+encrypt(plaintext): string</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+send(): void</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+markDelivered(): void</text>
+    <text x="12" y="170" font-size="9.5" fill="#1a5276">+softDelete(): void</text>
+  </g>
+
+  <!-- ══ CLASS: MoodEntry ══ -->
+  <g transform="translate(330,390)">
+    <rect width="220" height="210" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="220" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="220" height="6" fill="#2471A3"/>
+    <text x="110" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">MoodEntry</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+mood_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+score: int</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+notes: string</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+entry_date: Date</text>
+    <line x1="0" y1="110" x2="220" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+submit(data): MoodEntry</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+checkDuplicate(): boolean</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+weeklyReport(): Report</text>
+    <text x="12" y="170" font-size="9.5" fill="#1a5276">+triggerRiskAlert(): void</text>
+    <text x="12" y="184" font-size="9.5" fill="#1a5276">+recommendResources(): Res[]</text>
+  </g>
+
+  <!-- ══ CLASS: Chatbot ══ -->
+  <g transform="translate(620,390)">
+    <rect width="230" height="196" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Chatbot</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+transcript_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+confidence: float</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+escalated: boolean</text>
+    <line x1="0" y1="96" x2="230" y2="96" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="114" font-size="9.5" fill="#1a5276">+processQuery(q): Response</text>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+escalateToHuman(): void</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+storeTranscript(): void</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+detectInactive(): User[]</text>
+  </g>
+
+  <!-- ══ CLASS: Emergency ══ -->
+  <g transform="translate(930,390)">
+    <rect width="240" height="168" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="240" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="240" height="6" fill="#2471A3"/>
+    <text x="120" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Emergency</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+log_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+activated_at: DateTime</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+hotline_data: JSON</text>
+    <line x1="0" y1="96" x2="240" y2="96" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="114" font-size="9.5" fill="#1a5276">+activate(): Log</text>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+fetchHotlines(): Hotline[]</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+logActivation(): void</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- ROW 3: Notification, Resource, Analytics, Admin            -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+
+  <!-- ══ CLASS: Notification ══ -->
+  <g transform="translate(30,700)">
+    <rect width="230" height="196" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Notification</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+notif_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+user_id: UUID</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+type: NotifType</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+channel: Channel</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+retry_count: int</text>
+    <line x1="0" y1="110" x2="230" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+send(): void</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+retry(): void</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+queueDuringDowntime(): void</text>
+    <text x="12" y="170" font-size="9.5" fill="#1a5276">+followUpMissed(): void</text>
+  </g>
+
+  <!-- ══ CLASS: Resource ══ -->
+  <g transform="translate(330,700)">
+    <rect width="220" height="182" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="220" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="220" height="6" fill="#2471A3"/>
+    <text x="110" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Resource</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+resource_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+title: string</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+url: string</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+url_valid: boolean</text>
+    <text x="12" y="102" font-size="9.5" fill="#333">+view_count: int</text>
+    <line x1="0" y1="110" x2="220" y2="110" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+addResource(data): Res</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+validateURL(): boolean</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+trackView(): void</text>
+  </g>
+
+  <!-- ══ CLASS: Analytics ══ -->
+  <g transform="translate(620,700)">
+    <rect width="230" height="182" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="230" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="230" height="6" fill="#2471A3"/>
+    <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Analytics</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+analytics_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+report_type: ReportType</text>
+    <text x="12" y="74" font-size="9.5" fill="#333">+data: JSON</text>
+    <text x="12" y="88" font-size="9.5" fill="#333">+period: string</text>
+    <line x1="0" y1="96" x2="230" y2="96" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="114" font-size="9.5" fill="#1a5276">+generateMonthly(): Report</text>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+clinicianWorkload(): Metric</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+complianceReport(): Report</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+exportCSV(): File</text>
+  </g>
+
+  <!-- ══ CLASS: Admin ══ -->
+  <g transform="translate(930,700)">
+    <rect width="240" height="196" rx="6" fill="#fff" stroke="#2471A3" stroke-width="2.5"/>
+    <rect width="240" height="28" rx="6" fill="#2471A3"/>
+    <rect y="22" width="240" height="6" fill="#2471A3"/>
+    <text x="120" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Admin</text>
+    <text x="12" y="46" font-size="9.5" fill="#333">+admin_id: UUID</text>
+    <text x="12" y="60" font-size="9.5" fill="#333">+permissions: string[]</text>
+    <line x1="0" y1="68" x2="240" y2="68" stroke="#2471A3" stroke-width="1"/>
+    <text x="12" y="86" font-size="9.5" fill="#1a5276">+manageUsers(): void</text>
+    <text x="12" y="100" font-size="9.5" fill="#1a5276">+assignRoles(): void</text>
+    <text x="12" y="114" font-size="9.5" fill="#1a5276">+deactivateAccount(): void</text>
+    <text x="12" y="128" font-size="9.5" fill="#1a5276">+viewAuditTrails(): Log[]</text>
+    <text x="12" y="142" font-size="9.5" fill="#1a5276">+createBackup(): Backup</text>
+    <text x="12" y="156" font-size="9.5" fill="#1a5276">+restoreBackup(id): void</text>
+  </g>
+
+
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- RELATIONSHIP ARROWS — ALL classes connected                     -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
+
+  <!-- ─── R1: User ◆── Profile (1:1 composition) ─── -->
+  <line x1="260" y1="140" x2="330" y2="140" stroke="#1565c0" stroke-width="2.5" marker-start="url(#diamondFill)"/>
+  <text x="280" y="132" font-size="8.5" fill="#1565c0" font-weight="600">1</text>
+  <text x="318" y="132" font-size="8.5" fill="#1565c0" font-weight="600">1</text>
+
+  <!-- ─── R2: User ──▷ Appointment (1:*) ─── -->
+  <line x1="260" y1="180" x2="580" y2="180" stroke="#546e7a" stroke-width="2" marker-start="url(#diamondFill)"/>
+  <line x1="580" y1="180" x2="620" y2="150" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="268" y="174" font-size="8.5" fill="#546e7a" font-weight="600">1</text>
+  <text x="604" y="160" font-size="8.5" fill="#546e7a" font-weight="600">*</text>
+
+  <!-- ─── R3: User ──▷ ClinicalRecord (1:*) ─── -->
+  <line x1="260" y1="210" x2="880" y2="210" stroke="#546e7a" stroke-width="2"/>
+  <line x1="880" y1="210" x2="930" y2="170" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="268" y="204" font-size="8.5" fill="#546e7a" font-weight="600">1</text>
+  <text x="914" y="182" font-size="8.5" fill="#546e7a" font-weight="600">*</text>
+
+  <!-- ─── R4: Appointment ──▷ ClinicalRecord (link) ─── -->
+  <line x1="850" y1="200" x2="930" y2="200" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="870" y="194" font-size="8.5" fill="#7b1fa2" font-weight="600">generates</text>
+
+  <!-- ─── R5: User ──▷ ChatMessage (1:*) — vertical ─── -->
+  <line x1="80" y1="280" x2="80" y2="390" stroke="#546e7a" stroke-width="2.5" marker-end="url(#arrowSolid)"/>
+  <text x="86" y="330" font-size="8.5" fill="#546e7a" font-weight="600">1..*</text>
+
+  <!-- ─── R6: User ──▷ MoodEntry (1:*) — L-shape ─── -->
+  <polyline points="145,280 145,340 440,340 440,390" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="150" y="330" font-size="8.5" fill="#546e7a" font-weight="600">1</text>
+  <text x="446" y="382" font-size="8.5" fill="#546e7a" font-weight="600">*</text>
+
+  <!-- ─── R7: User ──▷ Chatbot (1:*) — L-shape ─── -->
+  <polyline points="190,280 190,354 735,354 735,390" fill="none" stroke="#546e7a" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="196" y="348" font-size="8.5" fill="#546e7a" font-weight="600">1</text>
+  <text x="741" y="382" font-size="8.5" fill="#546e7a" font-weight="600">*</text>
+
+  <!-- ─── R8: User ──▷ Emergency (1:*) — L-shape ─── -->
+  <polyline points="230,280 230,368 1050,368 1050,390" fill="none" stroke="#c62828" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="236" y="362" font-size="8.5" fill="#c62828" font-weight="600">1</text>
+  <text x="1056" y="382" font-size="8.5" fill="#c62828" font-weight="600">*</text>
+
+  <!-- ─── R9: Chatbot ──▷ Emergency (escalates) ─── -->
+  <line x1="850" y1="490" x2="930" y2="490" stroke="#c62828" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#arrowSolid)"/>
+  <text x="860" y="483" font-size="8.5" fill="#c62828" font-weight="600">escalates</text>
+
+  <!-- ─── R10: User ──▷ Notification (1:*) — vertical via ChatMessage col ─── -->
+  <line x1="55" y1="586" x2="55" y2="700" stroke="#546e7a" stroke-width="2.5" marker-end="url(#arrowSolid)"/>
+  <text x="60" y="650" font-size="8.5" fill="#546e7a" font-weight="600">1..*</text>
+
+  <!-- ─── R11: MoodEntry ──▷ Resource (recommends) ─── -->
+  <line x1="440" y1="600" x2="440" y2="700" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#arrowSolid)"/>
+  <text x="446" y="652" font-size="8.5" fill="#2e7d32" font-weight="600">recommends</text>
+
+  <!-- ─── R12: User ──▷ Analytics (1:*) — through Chatbot col ─── -->
+  <line x1="735" y1="586" x2="735" y2="700" stroke="#546e7a" stroke-width="2.5" marker-end="url(#arrowSolid)"/>
+  <text x="741" y="648" font-size="8.5" fill="#546e7a" font-weight="600">1..*</text>
+
+  <!-- ─── R13: Admin ──▷ User (manages) — L-shape from Admin back to User ─── -->
+  <polyline points="930,800 910,800 910,960 20,960 20,175 30,175" fill="none" stroke="#e65100" stroke-width="2.2" marker-end="url(#arrowSolid)"/>
+  <text x="460" y="954" font-size="9" fill="#e65100" font-weight="700">manages</text>
+
+  <!-- ─── R14: Admin ──▷ Resource (manages) ─── -->
+  <line x1="930" y1="830" x2="610" y2="830" stroke="#e65100" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <line x1="610" y1="830" x2="550" y2="800" stroke="#e65100" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="730" y="823" font-size="8.5" fill="#e65100" font-weight="600">manages</text>
+
+  <!-- ─── R15: Admin ──▷ Analytics (views/generates) ─── -->
+  <line x1="930" y1="860" x2="850" y2="860" stroke="#e65100" stroke-width="2" marker-end="url(#arrowSolid)"/>
+  <text x="862" y="853" font-size="8.5" fill="#e65100" font-weight="600">generates</text>
+
+  <!-- ─── R16: Notification ──▷ Appointment (reminds) ─── -->
+  <polyline points="260,760 280,760 280,988 660,988 660,310 650,310" fill="none" stroke="#7b1fa2" stroke-width="1.8" stroke-dasharray="6 3" marker-end="url(#arrowSolid)"/>
+  <text x="460" y="982" font-size="8.5" fill="#7b1fa2" font-weight="600">reminds</text>
+
+  <!-- ─── R17: Emergency ──▷ Notification (triggers) ─── -->
+  <polyline points="930,520 900,520 900,670 200,670 200,700" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6 3" marker-end="url(#arrowSolid)"/>
+  <text x="540" y="664" font-size="8.5" fill="#c62828" font-weight="600">triggers</text>
+
+
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <!-- FOOTER                                                          -->
+  <!-- ════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="1060" width="1260" height="40" fill="#2471A3" opacity="0.06"/>
+  <text x="630" y="1082" text-anchor="middle" font-size="9.5" fill="#90a4ae" font-style="italic">Figure 8.1 — UML Class Diagram  |  Mental Health Support Platform  |  Mel23 Tech Solution  |  © 2026 Kent Institute of Technology Australia</text>
+</svg>

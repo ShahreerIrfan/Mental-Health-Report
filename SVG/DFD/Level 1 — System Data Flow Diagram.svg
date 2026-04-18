@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 1230" style="width:100%;font-family:'Segoe UI',Calibri,Arial,sans-serif;">
+<defs>
+  <marker id="ah" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="9" markerHeight="7" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#546e7a"/></marker>
+  <marker id="ahB" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="9" markerHeight="7" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#1565c0"/></marker>
+  <marker id="ahG" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="9" markerHeight="7" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#388e3c"/></marker>
+</defs>
+<rect width="1420" height="1230" fill="#fff"/>
+
+<!-- ═══════════ TITLE BAR ═══════════ -->
+<rect x="0" y="0" width="1420" height="50" fill="#1a5276" rx="4"/>
+<text x="710" y="33" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">Level 1 — System Data Flow Diagram</text>
+<text x="710" y="1218" text-anchor="middle" font-size="9" fill="#aaa">Mental Health Support Platform · Gane &amp; Sarson Notation</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                 EXTERNAL ENTITIES (Right Column)       -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- E1: Patient / User -->
+<rect x="1145" y="88" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="115" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient / User</text>
+<!-- E5: Google Calendar -->
+<rect x="1145" y="172" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="199" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E5: Google Calendar</text>
+<!-- E2: Clinician -->
+<rect x="1145" y="318" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="345" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E2: Clinician</text>
+<!-- E7: Crisis Hotline -->
+<rect x="1145" y="438" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="465" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E7: Crisis Hotline</text>
+<!-- E4: SMS Gateway -->
+<rect x="1145" y="542" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="569" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E4: SMS Gateway</text>
+<!-- E6: Email Service -->
+<rect x="1145" y="630" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="657" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E6: Email Service</text>
+<!-- E3: Administrator -->
+<rect x="1145" y="758" width="155" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="3"/>
+<text x="1222" y="785" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E3: Administrator</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ROW 1 — PROCESSES (y=100)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 1.0 Auth & Account Mgmt -->
+<g transform="translate(80,100)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">1.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Authentication &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Account Management</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR1-FR5, FR8</text>
+</g>
+<!-- 2.0 Profile Management -->
+<g transform="translate(340,100)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">2.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Profile</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Management</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR6-FR7</text>
+</g>
+<!-- 3.0 Appointment Management -->
+<g transform="translate(600,100)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Appointment</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Management</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR9-FR12</text>
+</g>
+<!-- 15.0 UI & Localization -->
+<g transform="translate(860,100)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">15.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">UI &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Localization</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR41-FR43</text>
+</g>
+
+<!-- DS Row 1 (y=220) -->
+<g transform="translate(80,220)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D1</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Users &amp; Credentials</text>
+</g>
+<g transform="translate(340,220)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D2</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">User Profiles</text>
+</g>
+<g transform="translate(600,220)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D3</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Appointments</text>
+</g>
+<g transform="translate(860,220)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D15</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Session Data</text>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ROW 2 — PROCESSES (y=330)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 4.0 Clinical Records -->
+<g transform="translate(80,330)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">4.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Clinical</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Records</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR13-FR16</text>
+</g>
+<!-- 5.0 Messaging -->
+<g transform="translate(340,330)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">5.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Messaging</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">&amp; Chat</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR17-FR19</text>
+</g>
+<!-- 6.0 Mood Tracking -->
+<g transform="translate(600,330)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Mood</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Tracking</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR20-FR22</text>
+</g>
+
+<!-- DS Row 2 (y=450) -->
+<g transform="translate(80,450)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D4</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Clinical Records</text>
+</g>
+<g transform="translate(340,450)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D5</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Chat Messages</text>
+</g>
+<g transform="translate(600,450)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D6</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Mood Entries</text>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ROW 3 — PROCESSES (y=560)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 7.0 AI Chatbot -->
+<g transform="translate(80,560)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">7.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">AI Chatbot</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Support</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR23-FR24</text>
+</g>
+<!-- 8.0 Emergency Support -->
+<g transform="translate(340,560)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">8.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Emergency</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Support</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR25-FR27</text>
+</g>
+<!-- 9.0 Notification Engine -->
+<g transform="translate(600,560)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">9.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Notification</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Engine</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR28-FR30</text>
+</g>
+
+<!-- DS Row 3 (y=680) -->
+<g transform="translate(80,680)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D7</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Chatbot Transcripts</text>
+</g>
+<g transform="translate(340,680)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D8</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Emergency Logs</text>
+</g>
+<g transform="translate(600,680)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D9</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Notification Queue</text>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ROW 4 — PROCESSES (y=780)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 10.0 Content & Resource -->
+<g transform="translate(80,780)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">10.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Content &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Resource Mgmt</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR31-FR33</text>
+</g>
+<!-- 11.0 Analytics & Reporting -->
+<g transform="translate(340,780)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">11.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Analytics &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Reporting</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR34-FR36</text>
+</g>
+<!-- 12.0 Admin & Access Control -->
+<g transform="translate(600,780)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">12.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Administration &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Access Control</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR37-FR38</text>
+</g>
+
+<!-- DS Row 4 (y=900) -->
+<g transform="translate(80,900)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D10</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Resource Library</text>
+</g>
+<g transform="translate(340,900)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D11</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Analytics Data</text>
+</g>
+<g transform="translate(600,900)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D12</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Audit Logs</text>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--              ROW 5 — PROCESSES (y=990)                 -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<!-- 13.0 System Maintenance & Backup -->
+<g transform="translate(80,990)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">13.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">System Maintenance</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">&amp; Backup</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR39</text>
+</g>
+<!-- 14.0 Privacy & Compliance -->
+<g transform="translate(340,990)">
+  <rect width="165" height="66" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <line x1="0" y1="22" x2="165" y2="22" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="82" y="16" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">14.0</text>
+  <text x="82" y="38" text-anchor="middle" font-size="9.5" fill="#1a5276">Privacy &amp;</text>
+  <text x="82" y="50" text-anchor="middle" font-size="9.5" fill="#1a5276">Compliance</text>
+  <text x="82" y="62" text-anchor="middle" font-size="7" fill="#888">FR40</text>
+</g>
+
+<!-- DS Row 5 (y=1110) -->
+<g transform="translate(80,1110)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D13</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">System Backups</text>
+</g>
+<g transform="translate(340,1110)">
+  <rect width="180" height="32" fill="#d5f5e3" stroke="none"/>
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="32" x2="180" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="0" y1="0" x2="0" y2="32" stroke="#82b366" stroke-width="2"/>
+  <line x1="40" y1="0" x2="40" y2="32" stroke="#82b366" stroke-width="1.2"/>
+  <text x="20" y="21" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e8449">D14</text>
+  <text x="110" y="21" text-anchor="middle" font-size="9" fill="#1e8449">Consent Records</text>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                    PROCESS → DATA STORE ARROWS                -->
+<!--   Short vertical arrows, each process directly above its DS   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<g stroke="#388e3c" stroke-width="1.6" fill="none">
+  <line x1="162" y1="166" x2="162" y2="220" marker-end="url(#ahG)"/>
+  <line x1="422" y1="166" x2="422" y2="220" marker-end="url(#ahG)"/>
+  <line x1="682" y1="166" x2="682" y2="220" marker-end="url(#ahG)"/>
+  <line x1="942" y1="166" x2="942" y2="220" marker-end="url(#ahG)"/>
+  <line x1="162" y1="396" x2="162" y2="450" marker-end="url(#ahG)"/>
+  <line x1="422" y1="396" x2="422" y2="450" marker-end="url(#ahG)"/>
+  <line x1="682" y1="396" x2="682" y2="450" marker-end="url(#ahG)"/>
+  <line x1="162" y1="626" x2="162" y2="680" marker-end="url(#ahG)"/>
+  <line x1="422" y1="626" x2="422" y2="680" marker-end="url(#ahG)"/>
+  <line x1="682" y1="626" x2="682" y2="680" marker-end="url(#ahG)"/>
+  <line x1="162" y1="846" x2="162" y2="900" marker-end="url(#ahG)"/>
+  <line x1="422" y1="846" x2="422" y2="900" marker-end="url(#ahG)"/>
+  <line x1="682" y1="846" x2="682" y2="900" marker-end="url(#ahG)"/>
+  <line x1="162" y1="1056" x2="162" y2="1110" marker-end="url(#ahG)"/>
+  <line x1="422" y1="1056" x2="422" y2="1110" marker-end="url(#ahG)"/>
+</g>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--              ENTITY ↔ PROCESS DATA FLOW ARROWS                -->
+<!--   Orthogonal routing via channels ABOVE/BETWEEN rows          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ── E1 → 1.0  Credentials  (channel y=82, above R1) ── -->
+<polyline points="1145,102 1100,102 1100,82 160,82 160,100" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="580" y="78" font-size="8" fill="#546e7a" font-style="italic">Credentials</text>
+
+<!-- ── 1.0 → E1  Auth Token  (channel y=90, above R1) ── -->
+<polyline points="245,125 275,125 275,90 1105,90 1105,114 1145,114" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="580" y="87" font-size="8" fill="#546e7a" font-style="italic">Auth Token</text>
+
+<!-- ── E1 → 2.0  Profile Data  (channel y=76, above R1) ── -->
+<polyline points="1145,96 1095,96 1095,76 422,76 422,100" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="700" y="72" font-size="8" fill="#546e7a" font-style="italic">Profile Data</text>
+
+<!-- ── E1 → 3.0  Appt Request  (channel y=70, above R1) ── -->
+<polyline points="1145,90 1090,90 1090,70 682,70 682,100" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="870" y="66" font-size="8" fill="#546e7a" font-style="italic">Appt Request</text>
+
+<!-- ── E1 ↔ 15.0  Language Pref / Dashboard  (direct horizontal) ── -->
+<polyline points="1145,104 1060,104 1060,125 1025,125" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1062" y="100" font-size="7.5" fill="#546e7a" font-style="italic">Language Pref</text>
+<polyline points="1025,142 1065,142 1065,118 1145,118" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="1062" y="152" font-size="7.5" fill="#546e7a" font-style="italic">Dashboard</text>
+
+<!-- ── E1 → 5.0  Chat Messages  (right channel x=1085 → channel y=305) ── -->
+<polyline points="1145,108 1085,108 1085,305 422,305 422,330" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="700" y="300" font-size="8" fill="#546e7a" font-style="italic">Chat Messages</text>
+
+<!-- ── E1 → 6.0  Mood Entries  (right channel x=1080 → channel y=310) ── -->
+<polyline points="1145,112 1080,112 1080,312 682,312 682,330" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="870" y="308" font-size="8" fill="#546e7a" font-style="italic">Mood Entries</text>
+
+<!-- ── E1 → 8.0  Emergency  (right channel x=1075 → channel y=530) ── -->
+<polyline points="1145,118 1075,118 1075,535 422,535 422,560" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="700" y="530" font-size="8" fill="#546e7a" font-style="italic">Emergency</text>
+
+<!-- ── E1 → 14.0  Consent  (right channel x=1070 → channel y=968) ── -->
+<polyline points="1145,125 1070,125 1070,968 422,968 422,990" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="700" y="964" font-size="8" fill="#546e7a" font-style="italic">Consent</text>
+
+<!-- ── E2 → 4.0  Session Notes  (channel y=315, above R2) ── -->
+<polyline points="1145,332 1100,332 1100,315 162,315 162,330" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="550" y="311" font-size="8" fill="#546e7a" font-style="italic">Session Notes</text>
+
+<!-- ── 4.0 → E2  Patient Records  (channel y=320, above R2) ── -->
+<polyline points="245,353 280,353 280,320 1105,320 1105,345 1145,345" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="550" y="317" font-size="8" fill="#546e7a" font-style="italic">Patient Records</text>
+
+<!-- ── E2 → 3.0  Approval  (up right channel x=1110 → channel y=64) ── -->
+<polyline points="1145,325 1110,325 1110,64 700,64 700,100" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="900" y="60" font-size="8" fill="#546e7a" font-style="italic">Approval</text>
+
+<!-- ── 3.0 → E5  Calendar Sync  (gap x=810 between C3/C4) ── -->
+<polyline points="765,125 810,125 810,188 1145,188" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="950" y="183" font-size="8" fill="#546e7a" font-style="italic">Calendar Sync</text>
+
+<!-- ── E5 → 3.0  Events  (gap x=815) ── -->
+<polyline points="1145,200 815,200 815,142 765,142" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="950" y="210" font-size="8" fill="#546e7a" font-style="italic">Events</text>
+
+<!-- ── 9.0 → E4  SMS Payload  (direct horizontal) ── -->
+<polyline points="765,573 1145,573" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="940" y="567" font-size="8" fill="#546e7a" font-style="italic">SMS Payload</text>
+
+<!-- ── 9.0 → E6  Email Payload  (route down to E6 level) ── -->
+<polyline points="765,588 810,588 810,651 1145,651" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="940" y="645" font-size="8" fill="#546e7a" font-style="italic">Email Payload</text>
+
+<!-- ── 8.0 → E7  Emergency Alert  (channel y=520 between DS2/R3) ── -->
+<polyline points="505,575 560,575 560,520 1100,520 1100,455 1145,455" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="800" y="515" font-size="8" fill="#546e7a" font-style="italic">Emergency Alert</text>
+
+<!-- ── E7 → 8.0  Hotline Data  (channel y=528) ── -->
+<polyline points="1145,468 1090,468 1090,528 555,528 555,590 505,590" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="800" y="525" font-size="8" fill="#546e7a" font-style="italic">Hotline Data</text>
+
+<!-- ── E3 → 10.0  Resource Mgmt  (channel y=760, above R4) ── -->
+<polyline points="1145,772 1100,772 1100,760 162,760 162,780" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="550" y="756" font-size="8" fill="#546e7a" font-style="italic">Resource Mgmt</text>
+
+<!-- ── E3 → 12.0  Admin Commands  (channel y=765) ── -->
+<polyline points="1145,782 1095,782 1095,765 700,765 700,780" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="880" y="762" font-size="8" fill="#546e7a" font-style="italic">Admin Commands</text>
+
+<!-- ── 11.0 → E3  Analytics  (channel y=755) ── -->
+<polyline points="505,800 555,800 555,755 1090,755 1090,788 1145,788" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="780" y="751" font-size="8" fill="#546e7a" font-style="italic">Analytics</text>
+
+<!-- ── 13.0 → E3  System Alerts  (channel y=948 between DS4/R5) ── -->
+<polyline points="245,1020 280,1020 280,948 1085,948 1085,795 1145,795" fill="none" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+<text x="650" y="944" font-size="8" fill="#546e7a" font-style="italic">System Alerts</text>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                INTER-PROCESS DATA FLOW ARROWS                 -->
+<!--        Blue arrows, orthogonal routing through channels       -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ── 3.0 → 9.0  Booking Alert  (right gap x=825 between C3 & C4) ── -->
+<polyline points="765,150 825,150 825,540 700,540 700,560" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="830" y="350" font-size="8" fill="#1565c0" font-style="italic" writing-mode="tb">Booking Alert</text>
+
+<!-- ── 6.0 → 9.0  Risk Alerts  (right gap x=800) ── -->
+<polyline points="765,370 800,370 800,545 715,545 715,560" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="805" y="460" font-size="8" fill="#1565c0" font-style="italic" writing-mode="tb">Risk Alerts</text>
+
+<!-- ── 7.0 → 8.0  Escalation  (direct horizontal) ── -->
+<polyline points="245,593 340,593" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="270" y="588" font-size="8" fill="#1565c0" font-style="italic">Escalation</text>
+
+<!-- ── 8.0 → 9.0  Emergency Notif  (direct horizontal) ── -->
+<polyline points="505,593 600,593" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="520" y="588" font-size="8" fill="#1565c0" font-style="italic">Emergency Notif</text>
+
+<!-- ── 1.0 → 12.0  Auth Events  (left margin x=55) ── -->
+<polyline points="80,150 55,150 55,768 680,768 680,780" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="60" y="460" font-size="8" fill="#1565c0" font-style="italic" writing-mode="tb">Auth Events</text>
+
+<!-- ── 14.0 → 4.0  Consent Status  (left margin x=45) ── -->
+<polyline points="340,1020 45,1020 45,355 80,355" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="50" y="680" font-size="8" fill="#1565c0" font-style="italic" writing-mode="tb">Consent Status</text>
+
+<!-- ── 14.0 → 12.0  Enforcement  (channel right of R5) ── -->
+<polyline points="505,1023 560,1023 560,772 680,772 680,780" fill="none" stroke="#1565c0" stroke-width="1.8" marker-end="url(#ahB)"/>
+<text x="565" y="900" font-size="8" fill="#1565c0" font-style="italic" writing-mode="tb">Enforcement</text>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--                         LEGEND                         -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<g transform="translate(870,1060)">
+  <rect width="245" height="120" rx="6" fill="#f9f9f9" stroke="#ccc" stroke-width="1"/>
+  <text x="122" y="18" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">Legend</text>
+  <rect x="10" y="28" width="28" height="16" rx="4" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.2"/>
+  <text x="48" y="41" font-size="9" fill="#333">Process</text>
+  <rect x="10" y="52" width="28" height="16" fill="#f8cecc" stroke="#b85450" stroke-width="1.2" rx="2"/>
+  <text x="48" y="65" font-size="9" fill="#333">External Entity</text>
+  <rect x="10" y="76" width="28" height="14" fill="#d5f5e3" stroke="none"/>
+  <line x1="10" y1="76" x2="38" y2="76" stroke="#82b366" stroke-width="1.5"/>
+  <line x1="10" y1="90" x2="38" y2="90" stroke="#82b366" stroke-width="1.5"/>
+  <line x1="10" y1="76" x2="10" y2="90" stroke="#82b366" stroke-width="1.5"/>
+  <text x="48" y="88" font-size="9" fill="#333">Data Store (Gane &amp; Sarson)</text>
+  <line x1="10" y1="102" x2="45" y2="102" stroke="#546e7a" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="52" y="106" font-size="9" fill="#333">Data Flow</text>
+</g>
+
+</svg>
