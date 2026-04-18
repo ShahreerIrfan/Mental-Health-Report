@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" style="max-width:1100px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ctx1" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker>
+<marker id="ctx1r" viewBox="0 0 10 7" refX="1" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="10 0,0 3.5,10 7" fill="#666"/></marker></defs>
+<text x="550" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a5276">Level 0 — Context Diagram (Gane &amp; Sarson)</text>
+
+<!-- System boundary -->
+<rect x="300" y="260" width="500" height="270" rx="5" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="8 4"/>
+<text x="550" y="282" text-anchor="middle" font-size="10" fill="#999">System Boundary</text>
+
+<!-- Central process -->
+<rect x="400" y="320" width="300" height="150" rx="14" fill="#dae8fc" stroke="#6c8ebf" stroke-width="3"/>
+<line x1="400" y1="360" x2="700" y2="360" stroke="#6c8ebf" stroke-width="2"/>
+<text x="550" y="348" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a5276">0</text>
+<text x="550" y="400" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Mental Health</text>
+<text x="550" y="420" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Support Platform</text>
+<text x="550" y="448" text-anchor="middle" font-size="9" fill="#888">FR1–FR75</text>
+
+<!-- E1: Patient -->
+<rect x="30" y="80" width="180" height="45" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="120" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#922b21">E1: Patient / User</text>
+<line x1="210" y1="103" x2="400" y2="360" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="280" y="210" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Registration, Credentials,</text>
+<text x="280" y="220" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Mood, Messages, Appts</text>
+<line x1="400" y1="350" x2="210" y2="120" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="265" y="255" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Auth Tokens, Dashboard,</text>
+<text x="265" y="265" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Notifications, Reports</text>
+
+<!-- E2: Clinician -->
+<rect x="890" y="80" width="180" height="45" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="980" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#922b21">E2: Clinician</text>
+<line x1="890" y1="103" x2="700" y2="360" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="820" y="210" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Session Notes,</text>
+<text x="820" y="220" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Approvals</text>
+<line x1="700" y1="350" x2="890" y2="120" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="835" y="255" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Patient Records,</text>
+<text x="835" y="265" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Schedules, Workload</text>
+
+<!-- E3: Admin -->
+<rect x="30" y="620" width="180" height="45" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="120" y="648" text-anchor="middle" font-size="12" font-weight="bold" fill="#922b21">E3: Administrator</text>
+<line x1="210" y1="643" x2="400" y2="470" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="280" y="570" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Admin Commands,</text>
+<text x="280" y="580" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Resource Mgmt</text>
+<line x1="400" y1="460" x2="210" y2="630" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="265" y="605" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Analytics, Audit,</text>
+<text x="265" y="615" text-anchor="middle" font-size="8" fill="#555" font-style="italic">System Alerts</text>
+
+<!-- E4: SMS Gateway -->
+<rect x="310" y="700" width="160" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="390" y="726" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E4: SMS Gateway</text>
+<line x1="390" y1="700" x2="470" y2="530" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="400" y="630" text-anchor="middle" font-size="8" fill="#555" font-style="italic">SMS Payloads</text>
+
+<!-- E5: Google Calendar -->
+<rect x="890" y="320" width="180" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="980" y="346" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E5: Google Calendar</text>
+<line x1="890" y1="341" x2="700" y2="395" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<line x1="700" y1="390" x2="890" y2="338" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="802" y="356" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Calendar Sync</text>
+
+<!-- E6: Email Service -->
+<rect x="630" y="700" width="160" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="710" y="726" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E6: Email Service</text>
+<line x1="630" y1="700" x2="580" y2="530" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="625" y="630" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Email Payloads</text>
+
+<!-- E7: Crisis Hotline -->
+<rect x="890" y="620" width="180" height="45" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="980" y="648" text-anchor="middle" font-size="12" font-weight="bold" fill="#922b21">E7: Crisis Hotline</text>
+<line x1="890" y1="643" x2="700" y2="460" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="820" y="570" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Hotline Data</text>
+<line x1="700" y1="470" x2="890" y2="635" stroke="#888" stroke-width="1.5" marker-end="url(#ctx1)"/>
+<text x="835" y="605" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Emergency Alerts</text>
+
+<!-- Legend -->
+<rect x="30" y="760" width="12" height="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="3"/>
+<text x="48" y="771" font-size="10" fill="#555">Process</text>
+<rect x="130" y="760" width="12" height="12" fill="#f8cecc" stroke="#b85450" stroke-width="1.5"/>
+<text x="148" y="771" font-size="10" fill="#555">External Entity</text>
+</svg>

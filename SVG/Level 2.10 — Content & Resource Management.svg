@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" style="max-width:700px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah12" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="350" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 2.10 — Content &amp; Resource Management</text>
+<line x1="102" y1="92" x2="105" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="106" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">New Resource</text>
+<line x1="180" y1="202" x2="240" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="213" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">URL to Validate</text>
+<line x1="390" y1="202" x2="450" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="423" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Published</text>
+<line x1="525" y1="170" x2="522" y2="92" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="526" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Resources</text>
+<line x1="522" y1="92" x2="525" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="526" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">View Request</text>
+<line x1="105" y1="235" x2="147" y2="340" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="129" y="280" text-anchor="start" font-size="8" fill="#555" font-style="italic">New Record</text>
+<line x1="240" y1="202" x2="245" y2="357" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="245" y="273" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Validated URL</text>
+<line x1="525" y1="235" x2="477" y2="340" stroke="#888" stroke-width="1.5" marker-end="url(#ah12)"/>
+<text x="504" y="280" text-anchor="start" font-size="8" fill="#555" font-style="italic">View Count</text>
+<rect x="30" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="102" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E3: Administrator</text>
+<rect x="450" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="522" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient/User</text>
+<rect x="50" y="340" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="50" y1="340" x2="245" y2="340" stroke="#82b366" stroke-width="2"/>
+<line x1="50" y1="374" x2="245" y2="374" stroke="#82b366" stroke-width="2"/>
+<line x1="50" y1="340" x2="50" y2="374" stroke="#82b366" stroke-width="2"/>
+<line x1="92" y1="340" x2="92" y2="374" stroke="#82b366" stroke-width="1.5"/>
+<text x="71" y="362" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D10</text>
+<text x="168" y="362" text-anchor="middle" font-size="10" fill="#1e8449">Resource Library</text>
+<rect x="380" y="340" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="380" y1="340" x2="575" y2="340" stroke="#82b366" stroke-width="2"/>
+<line x1="380" y1="374" x2="575" y2="374" stroke="#82b366" stroke-width="2"/>
+<line x1="380" y1="340" x2="380" y2="374" stroke="#82b366" stroke-width="2"/>
+<line x1="422" y1="340" x2="422" y2="374" stroke="#82b366" stroke-width="1.5"/>
+<text x="401" y="362" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D11</text>
+<text x="498" y="362" text-anchor="middle" font-size="10" fill="#1e8449">Analytics Data</text>
+<rect x="30" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="30" y1="192" x2="180" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="105" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">10.1</text>
+<text x="105" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Add Mental Health</text>
+<text x="105" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Resources</text>
+<text x="105" y="231" text-anchor="middle" font-size="7" fill="#888">FR41</text>
+<rect x="240" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="240" y1="192" x2="390" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="315" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">10.2</text>
+<text x="315" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Validate</text>
+<text x="315" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Resource URL</text>
+<text x="315" y="231" text-anchor="middle" font-size="7" fill="#888">FR42</text>
+<rect x="450" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="450" y1="192" x2="600" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="525" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">10.3</text>
+<text x="525" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Track View</text>
+<text x="525" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Counts</text>
+<text x="525" y="231" text-anchor="middle" font-size="7" fill="#888">FR43</text>
+</svg>

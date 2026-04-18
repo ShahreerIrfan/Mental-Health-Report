@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" style="max-width:1200px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="erd7" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="600" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a5276">Entity Relationship Diagram — Mental Health Support Platform</text>
+<rect x="30" y="50" width="200" height="180" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="50" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="63" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="130" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Users</text>
+<text x="38" y="92" font-size="9" fill="#c0392b" font-weight="bold">PK user_id UUID</text>
+<text x="38" y="106" font-size="9" fill="#555">email VARCHAR(255)</text>
+<text x="38" y="120" font-size="9" fill="#555">password_hash TEXT</text>
+<text x="38" y="134" font-size="9" fill="#555">role ENUM</text>
+<text x="38" y="148" font-size="9" fill="#555">verified BOOLEAN</text>
+<text x="38" y="162" font-size="9" fill="#555">locked BOOLEAN</text>
+<text x="38" y="176" font-size="9" fill="#555">mfa_enabled BOOLEAN</text>
+<text x="38" y="190" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<text x="38" y="204" font-size="9" fill="#555">last_login TIMESTAMP</text>
+<rect x="260" y="50" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="50" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="63" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="360" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Profiles</text>
+<text x="268" y="92" font-size="9" fill="#c0392b" font-weight="bold">PK profile_id UUID</text>
+<text x="268" y="106" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="268" y="120" font-size="9" fill="#555">display_name VARCHAR</text>
+<text x="268" y="134" font-size="9" fill="#555">avatar_url TEXT</text>
+<text x="268" y="148" font-size="9" fill="#555">language VARCHAR</text>
+<text x="268" y="162" font-size="9" fill="#555">updated_at TIMESTAMP</text>
+<rect x="490" y="50" width="210" height="180" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="50" width="210" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="63" width="210" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="595" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Appointments</text>
+<text x="498" y="92" font-size="9" fill="#c0392b" font-weight="bold">PK appt_id UUID</text>
+<text x="498" y="106" font-size="9" fill="#2471a3">FK patient_id UUID</text>
+<text x="498" y="120" font-size="9" fill="#2471a3">FK clinician_id UUID</text>
+<text x="498" y="134" font-size="9" fill="#555">date_time TIMESTAMP</text>
+<text x="498" y="148" font-size="9" fill="#555">status ENUM</text>
+<text x="498" y="162" font-size="9" fill="#555">gcal_event_id TEXT</text>
+<text x="498" y="176" font-size="9" fill="#555">missed BOOLEAN</text>
+<text x="498" y="190" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<text x="498" y="204" font-size="9" fill="#555">auto_cancelled BOOLEAN</text>
+<rect x="730" y="50" width="200" height="160" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="50" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="63" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="830" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ClinicalRecords</text>
+<text x="738" y="92" font-size="9" fill="#c0392b" font-weight="bold">PK record_id UUID</text>
+<text x="738" y="106" font-size="9" fill="#2471a3">FK patient_id UUID</text>
+<text x="738" y="120" font-size="9" fill="#2471a3">FK clinician_id UUID</text>
+<text x="738" y="134" font-size="9" fill="#555">session_notes TEXT</text>
+<text x="738" y="148" font-size="9" fill="#555">record_type ENUM</text>
+<text x="738" y="162" font-size="9" fill="#555">retention_date DATE</text>
+<text x="738" y="176" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<rect x="960" y="50" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="50" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="63" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="1060" y="68" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ClinicalDocuments</text>
+<text x="968" y="92" font-size="9" fill="#c0392b" font-weight="bold">PK doc_id UUID</text>
+<text x="968" y="106" font-size="9" fill="#2471a3">FK record_id UUID</text>
+<text x="968" y="120" font-size="9" fill="#555">file_url TEXT</text>
+<text x="968" y="134" font-size="9" fill="#555">file_type VARCHAR</text>
+<text x="968" y="148" font-size="9" fill="#555">file_size INT</text>
+<text x="968" y="162" font-size="9" fill="#555">validated BOOLEAN</text>
+<rect x="30" y="280" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="280" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="293" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="130" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ChatMessages</text>
+<text x="38" y="322" font-size="9" fill="#c0392b" font-weight="bold">PK message_id UUID</text>
+<text x="38" y="336" font-size="9" fill="#2471a3">FK sender_id UUID</text>
+<text x="38" y="350" font-size="9" fill="#2471a3">FK receiver_id UUID</text>
+<text x="38" y="364" font-size="9" fill="#555">encrypted_body TEXT</text>
+<text x="38" y="378" font-size="9" fill="#555">delivered BOOLEAN</text>
+<text x="38" y="392" font-size="9" fill="#555">soft_deleted BOOLEAN</text>
+<rect x="260" y="280" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="280" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="293" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="360" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">MoodEntries</text>
+<text x="268" y="322" font-size="9" fill="#c0392b" font-weight="bold">PK mood_id UUID</text>
+<text x="268" y="336" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="268" y="350" font-size="9" fill="#555">score INT (1-5)</text>
+<text x="268" y="364" font-size="9" fill="#555">notes TEXT</text>
+<text x="268" y="378" font-size="9" fill="#555">entry_date DATE</text>
+<text x="268" y="392" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<rect x="490" y="280" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="280" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="293" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="590" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ChatbotTranscripts</text>
+<text x="498" y="322" font-size="9" fill="#c0392b" font-weight="bold">PK transcript_id UUID</text>
+<text x="498" y="336" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="498" y="350" font-size="9" fill="#555">query TEXT</text>
+<text x="498" y="364" font-size="9" fill="#555">response TEXT</text>
+<text x="498" y="378" font-size="9" fill="#555">confidence FLOAT</text>
+<text x="498" y="392" font-size="9" fill="#555">escalated BOOLEAN</text>
+<rect x="730" y="280" width="210" height="160" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="280" width="210" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="293" width="210" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="835" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Notifications</text>
+<text x="738" y="322" font-size="9" fill="#c0392b" font-weight="bold">PK notif_id UUID</text>
+<text x="738" y="336" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="738" y="350" font-size="9" fill="#555">type ENUM</text>
+<text x="738" y="364" font-size="9" fill="#555">channel ENUM</text>
+<text x="738" y="378" font-size="9" fill="#555">payload JSON</text>
+<text x="738" y="392" font-size="9" fill="#555">status ENUM</text>
+<text x="738" y="406" font-size="9" fill="#555">retry_count INT</text>
+<text x="738" y="420" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<rect x="960" y="280" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="280" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="293" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="1060" y="298" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">EmergencyLogs</text>
+<text x="968" y="322" font-size="9" fill="#c0392b" font-weight="bold">PK log_id UUID</text>
+<text x="968" y="336" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="968" y="350" font-size="9" fill="#555">activated_at TIMESTAMP</text>
+<text x="968" y="364" font-size="9" fill="#555">hotline_data JSON</text>
+<text x="968" y="378" font-size="9" fill="#555">resolved BOOLEAN</text>
+<rect x="30" y="480" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="480" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="30" y="493" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="130" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Resources</text>
+<text x="38" y="522" font-size="9" fill="#c0392b" font-weight="bold">PK resource_id UUID</text>
+<text x="38" y="536" font-size="9" fill="#555">title VARCHAR(255)</text>
+<text x="38" y="550" font-size="9" fill="#555">url TEXT</text>
+<text x="38" y="564" font-size="9" fill="#555">url_valid BOOLEAN</text>
+<text x="38" y="578" font-size="9" fill="#555">category VARCHAR</text>
+<text x="38" y="592" font-size="9" fill="#555">view_count INT</text>
+<rect x="260" y="480" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="480" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="260" y="493" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="360" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">AnalyticsData</text>
+<text x="268" y="522" font-size="9" fill="#c0392b" font-weight="bold">PK analytics_id UUID</text>
+<text x="268" y="536" font-size="9" fill="#555">report_type ENUM</text>
+<text x="268" y="550" font-size="9" fill="#555">data JSON</text>
+<text x="268" y="564" font-size="9" fill="#555">period VARCHAR</text>
+<text x="268" y="578" font-size="9" fill="#555">generated_at TIMESTAMP</text>
+<rect x="490" y="480" width="210" height="160" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="480" width="210" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="490" y="493" width="210" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="595" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">AuditLogs</text>
+<text x="498" y="522" font-size="9" fill="#c0392b" font-weight="bold">PK audit_id UUID</text>
+<text x="498" y="536" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="498" y="550" font-size="9" fill="#555">action VARCHAR</text>
+<text x="498" y="564" font-size="9" fill="#555">entity_type VARCHAR</text>
+<text x="498" y="578" font-size="9" fill="#555">entity_id UUID</text>
+<text x="498" y="592" font-size="9" fill="#555">ip_address INET</text>
+<text x="498" y="606" font-size="9" fill="#555">details JSON</text>
+<text x="498" y="620" font-size="9" fill="#555">created_at TIMESTAMP</text>
+<rect x="730" y="480" width="200" height="140" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="480" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="730" y="493" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="830" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ConsentRecords</text>
+<text x="738" y="522" font-size="9" fill="#c0392b" font-weight="bold">PK consent_id UUID</text>
+<text x="738" y="536" font-size="9" fill="#2471a3">FK user_id UUID</text>
+<text x="738" y="550" font-size="9" fill="#555">consent_type ENUM</text>
+<text x="738" y="564" font-size="9" fill="#555">granted BOOLEAN</text>
+<text x="738" y="578" font-size="9" fill="#555">changed_at TIMESTAMP</text>
+<rect x="960" y="480" width="200" height="130" fill="#fff" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="480" width="200" height="26" fill="#2980b9" stroke="#2980b9" stroke-width="2" rx="4"/>
+<rect x="960" y="493" width="200" height="13" fill="#2980b9" stroke="#2980b9" stroke-width="2"/>
+<text x="1060" y="498" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">SystemBackups</text>
+<text x="968" y="522" font-size="9" fill="#c0392b" font-weight="bold">PK backup_id UUID</text>
+<text x="968" y="536" font-size="9" fill="#555">backup_date DATE</text>
+<text x="968" y="550" font-size="9" fill="#555">file_path TEXT</text>
+<text x="968" y="564" font-size="9" fill="#555">size_mb FLOAT</text>
+<text x="968" y="578" font-size="9" fill="#555">status ENUM</text>
+<line x1="230" y1="140" x2="260" y2="120" stroke="#888" stroke-width="1.5"/>
+<text x="253" y="127" font-size="9" fill="#c0392b" font-weight="bold">1:1</text>
+<line x1="230" y1="120" x2="490" y2="120" stroke="#888" stroke-width="1.5"/>
+<text x="368" y="117" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="700" y1="100" x2="730" y2="100" stroke="#888" stroke-width="1.5"/>
+<text x="723" y="97" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="930" y1="130" x2="960" y2="100" stroke="#888" stroke-width="1.5"/>
+<text x="953" y="112" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="120" y1="230" x2="120" y2="280" stroke="#888" stroke-width="1.5"/>
+<text x="128" y="252" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="330" y1="230" x2="330" y2="280" stroke="#888" stroke-width="1.5"/>
+<text x="338" y="252" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="560" y1="230" x2="560" y2="280" stroke="#888" stroke-width="1.5"/>
+<text x="568" y="252" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="800" y1="230" x2="800" y2="280" stroke="#888" stroke-width="1.5"/>
+<text x="808" y="252" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="1030" y1="230" x2="1030" y2="280" stroke="#888" stroke-width="1.5"/>
+<text x="1038" y="252" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="600" y1="440" x2="600" y2="480" stroke="#888" stroke-width="1.5"/>
+<text x="608" y="457" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+<line x1="800" y1="440" x2="800" y2="480" stroke="#888" stroke-width="1.5"/>
+<text x="808" y="457" font-size="9" fill="#c0392b" font-weight="bold">1:N</text>
+</svg>

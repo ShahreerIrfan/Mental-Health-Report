@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" style="max-width:1000px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah5" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="500" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 2.3 — Appointment Management</text>
+<line x1="102" y1="92" x2="105" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="106" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Booking Req</text>
+<line x1="180" y1="202" x2="200" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="193" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Slot Query</text>
+<line x1="350" y1="202" x2="370" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="363" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Available</text>
+<line x1="520" y1="202" x2="700" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="613" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Sync Data</text>
+<line x1="775" y1="170" x2="842" y2="92" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="811" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Calendar Events</text>
+<line x1="842" y1="92" x2="775" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="811" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">External Events</text>
+<line x1="442" y1="92" x2="445" y2="320" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="446" y="199" text-anchor="start" font-size="8" fill="#555" font-style="italic">Approval</text>
+<line x1="180" y1="352" x2="200" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="193" y="346" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Missed Alert</text>
+<line x1="275" y1="385" x2="275" y2="440" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="278" y="405" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Rebook Link</text>
+<line x1="105" y1="235" x2="127" y2="480" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="119" y="350" text-anchor="start" font-size="8" fill="#555" font-style="italic">New Appt</text>
+<line x1="370" y1="202" x2="225" y2="497" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="300" y="343" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Updated</text>
+<line x1="105" y1="385" x2="127" y2="480" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="119" y="425" text-anchor="start" font-size="8" fill="#555" font-style="italic">Missed</text>
+<line x1="370" y1="352" x2="225" y2="497" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="300" y="418" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Approved</text>
+<line x1="540" y1="352" x2="225" y2="497" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="385" y="418" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Cancelled</text>
+<line x1="200" y1="472" x2="225" y2="497" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="215" y="478" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Rebooked</text>
+<line x1="350" y1="352" x2="450" y2="497" stroke="#888" stroke-width="1.5" marker-end="url(#ah5)"/>
+<text x="403" y="418" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Follow-up</text>
+<rect x="30" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="102" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient/User</text>
+<rect x="370" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="442" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E2: Clinician</text>
+<rect x="770" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="842" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E5: Google Calendar</text>
+<rect x="30" y="480" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="30" y1="480" x2="225" y2="480" stroke="#82b366" stroke-width="2"/>
+<line x1="30" y1="514" x2="225" y2="514" stroke="#82b366" stroke-width="2"/>
+<line x1="30" y1="480" x2="30" y2="514" stroke="#82b366" stroke-width="2"/>
+<line x1="72" y1="480" x2="72" y2="514" stroke="#82b366" stroke-width="1.5"/>
+<text x="51" y="502" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D3</text>
+<text x="148" y="502" text-anchor="middle" font-size="10" fill="#1e8449">Appointments</text>
+<rect x="450" y="480" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="450" y1="480" x2="645" y2="480" stroke="#82b366" stroke-width="2"/>
+<line x1="450" y1="514" x2="645" y2="514" stroke="#82b366" stroke-width="2"/>
+<line x1="450" y1="480" x2="450" y2="514" stroke="#82b366" stroke-width="2"/>
+<line x1="492" y1="480" x2="492" y2="514" stroke="#82b366" stroke-width="1.5"/>
+<text x="471" y="502" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D9</text>
+<text x="568" y="502" text-anchor="middle" font-size="10" fill="#1e8449">Notification Queue</text>
+<rect x="30" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="30" y1="192" x2="180" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="105" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.1</text>
+<text x="105" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Schedule</text>
+<text x="105" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Appointment</text>
+<text x="105" y="231" text-anchor="middle" font-size="7" fill="#888">FR9</text>
+<rect x="200" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="200" y1="192" x2="350" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="275" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.2</text>
+<text x="275" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Check Slot</text>
+<text x="275" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Availability</text>
+<text x="275" y="231" text-anchor="middle" font-size="7" fill="#888">FR10</text>
+<rect x="370" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="370" y1="192" x2="520" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="445" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.3</text>
+<text x="445" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Reschedule</text>
+<text x="445" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Appointment</text>
+<text x="445" y="231" text-anchor="middle" font-size="7" fill="#888">FR11</text>
+<rect x="700" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="700" y1="192" x2="850" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="775" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.7</text>
+<text x="775" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Google Cal</text>
+<text x="775" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Sync</text>
+<text x="775" y="231" text-anchor="middle" font-size="7" fill="#888">FR67</text>
+<rect x="30" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="30" y1="342" x2="180" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="105" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.4</text>
+<text x="105" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Mark</text>
+<text x="105" y="369" text-anchor="middle" font-size="10" fill="#1a5276">Missed</text>
+<text x="105" y="381" text-anchor="middle" font-size="7" fill="#888">FR12</text>
+<rect x="370" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="370" y1="342" x2="520" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="445" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.5</text>
+<text x="445" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Approve</text>
+<text x="445" y="369" text-anchor="middle" font-size="10" fill="#1a5276">Pending</text>
+<text x="445" y="381" text-anchor="middle" font-size="7" fill="#888">FR14</text>
+<rect x="540" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="540" y1="342" x2="690" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="615" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.6</text>
+<text x="615" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Auto-Cancel</text>
+<text x="615" y="369" text-anchor="middle" font-size="10" fill="#1a5276">(30 min)</text>
+<text x="615" y="381" text-anchor="middle" font-size="7" fill="#888">FR15</text>
+<rect x="200" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="200" y1="342" x2="350" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="275" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.9</text>
+<text x="275" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Send Follow</text>
+<text x="275" y="369" text-anchor="middle" font-size="10" fill="#1a5276">Up</text>
+<text x="275" y="381" text-anchor="middle" font-size="7" fill="#888">FR68</text>
+<rect x="200" y="440" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="200" y1="462" x2="350" y2="462" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="275" y="456" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.8</text>
+<text x="275" y="476" text-anchor="middle" font-size="10" fill="#1a5276">Rebook from</text>
+<text x="275" y="489" text-anchor="middle" font-size="10" fill="#1a5276">Alert</text>
+<text x="275" y="501" text-anchor="middle" font-size="7" fill="#888">FR69</text>
+</svg>

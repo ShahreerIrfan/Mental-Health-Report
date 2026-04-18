@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 520" style="max-width:850px;width:100%;font-family:'Segoe UI',Arial,sans-serif;">
+  <!-- Presentation Tier -->
+  <rect x="20" y="10" width="810" height="120" rx="12" fill="#ebf5fb" stroke="#2980b9" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="40" y="35" fill="#1a5276" font-size="14" font-weight="bold">PRESENTATION TIER (Client)</text>
+  <rect x="40" y="50" width="150" height="65" rx="8" fill="#2980b9" stroke="#1a5276" stroke-width="1.5"/>
+  <text x="115" y="75" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">React.js + Vite</text>
+  <text x="115" y="92" text-anchor="middle" fill="#d4e6f1" font-size="9">TypeScript SPA</text>
+  <text x="115" y="105" text-anchor="middle" fill="#d4e6f1" font-size="9">Components, Routing</text>
+
+  <rect x="210" y="50" width="130" height="65" rx="8" fill="#5dade2" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="275" y="75" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">State Mgmt</text>
+  <text x="275" y="92" text-anchor="middle" fill="#d4e6f1" font-size="9">React Context</text>
+  <text x="275" y="105" text-anchor="middle" fill="#d4e6f1" font-size="9">React Query</text>
+
+  <rect x="360" y="50" width="130" height="65" rx="8" fill="#5dade2" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="425" y="75" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Socket.io Client</text>
+  <text x="425" y="92" text-anchor="middle" fill="#d4e6f1" font-size="9">Real-time Chat</text>
+  <text x="425" y="105" text-anchor="middle" fill="#d4e6f1" font-size="9">Notifications</text>
+
+  <rect x="510" y="50" width="130" height="65" rx="8" fill="#5dade2" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="575" y="75" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Chart.js</text>
+  <text x="575" y="92" text-anchor="middle" fill="#d4e6f1" font-size="9">Mood Analytics</text>
+  <text x="575" y="105" text-anchor="middle" fill="#d4e6f1" font-size="9">Dashboards</text>
+
+  <rect x="660" y="50" width="150" height="65" rx="8" fill="#5dade2" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="735" y="75" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Axios HTTP</text>
+  <text x="735" y="92" text-anchor="middle" fill="#d4e6f1" font-size="9">API Client</text>
+  <text x="735" y="105" text-anchor="middle" fill="#d4e6f1" font-size="9">JWT Interceptor</text>
+
+  <!-- Arrows -->
+  <text x="425" y="155" text-anchor="middle" fill="#2c3e50" font-size="11" font-weight="bold">HTTPS / WSS</text>
+  <line x1="425" y1="130" x2="425" y2="180" stroke="#2980b9" stroke-width="2" marker-end="url(#arr)"/>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2980b9"/></marker></defs>
+
+  <!-- Application Tier -->
+  <rect x="20" y="180" width="810" height="140" rx="12" fill="#fef9e7" stroke="#f39c12" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="40" y="205" fill="#7d6608" font-size="14" font-weight="bold">APPLICATION TIER (Server)</text>
+  <rect x="40" y="220" width="140" height="80" rx="8" fill="#f39c12" stroke="#d68910" stroke-width="1.5"/>
+  <text x="110" y="245" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Express.js</text>
+  <text x="110" y="260" text-anchor="middle" fill="#fef9e7" font-size="9">REST API Server</text>
+  <text x="110" y="275" text-anchor="middle" fill="#fef9e7" font-size="9">Middleware Chain</text>
+  <text x="110" y="290" text-anchor="middle" fill="#fef9e7" font-size="9">Error Handling</text>
+
+  <rect x="200" y="220" width="130" height="80" rx="8" fill="#e67e22" stroke="#d35400" stroke-width="1.5"/>
+  <text x="265" y="245" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Auth Module</text>
+  <text x="265" y="260" text-anchor="middle" fill="#fef9e7" font-size="9">JWT + OTP</text>
+  <text x="265" y="275" text-anchor="middle" fill="#fef9e7" font-size="9">bcrypt Hashing</text>
+  <text x="265" y="290" text-anchor="middle" fill="#fef9e7" font-size="9">RBAC</text>
+
+  <rect x="350" y="220" width="130" height="80" rx="8" fill="#e67e22" stroke="#d35400" stroke-width="1.5"/>
+  <text x="415" y="245" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Business Logic</text>
+  <text x="415" y="260" text-anchor="middle" fill="#fef9e7" font-size="9">Appointments</text>
+  <text x="415" y="275" text-anchor="middle" fill="#fef9e7" font-size="9">Mood Tracking</text>
+  <text x="415" y="290" text-anchor="middle" fill="#fef9e7" font-size="9">Clinical Records</text>
+
+  <rect x="500" y="220" width="130" height="80" rx="8" fill="#e67e22" stroke="#d35400" stroke-width="1.5"/>
+  <text x="565" y="245" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Socket.io Server</text>
+  <text x="565" y="260" text-anchor="middle" fill="#fef9e7" font-size="9">Chat Engine</text>
+  <text x="565" y="275" text-anchor="middle" fill="#fef9e7" font-size="9">AES-256 Encrypt</text>
+  <text x="565" y="290" text-anchor="middle" fill="#fef9e7" font-size="9">Presence</text>
+
+  <rect x="650" y="220" width="160" height="80" rx="8" fill="#e67e22" stroke="#d35400" stroke-width="1.5"/>
+  <text x="730" y="245" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">External APIs</text>
+  <text x="730" y="260" text-anchor="middle" fill="#fef9e7" font-size="9">OpenAI (Chatbot)</text>
+  <text x="730" y="275" text-anchor="middle" fill="#fef9e7" font-size="9">Twilio (SMS)</text>
+  <text x="730" y="290" text-anchor="middle" fill="#fef9e7" font-size="9">SendGrid (Email)</text>
+
+  <!-- Arrow to data tier -->
+  <line x1="425" y1="320" x2="425" y2="360" stroke="#27ae60" stroke-width="2" marker-end="url(#arr2)"/>
+  <text x="425" y="348" text-anchor="middle" fill="#2c3e50" font-size="11" font-weight="bold">SQL / ORM Queries</text>
+  <defs><marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#27ae60"/></marker></defs>
+
+  <!-- Data Tier -->
+  <rect x="20" y="360" width="810" height="140" rx="12" fill="#d5f5e3" stroke="#27ae60" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="40" y="385" fill="#1e8449" font-size="14" font-weight="bold">DATA TIER (Storage)</text>
+  <rect x="40" y="400" width="180" height="80" rx="8" fill="#27ae60" stroke="#1e8449" stroke-width="1.5"/>
+  <text x="130" y="425" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">PostgreSQL</text>
+  <text x="130" y="440" text-anchor="middle" fill="#d5f5e3" font-size="9">Primary Database</text>
+  <text x="130" y="455" text-anchor="middle" fill="#d5f5e3" font-size="9">Users, Appointments</text>
+  <text x="130" y="470" text-anchor="middle" fill="#d5f5e3" font-size="9">Records, Messages, Mood</text>
+
+  <rect x="250" y="400" width="160" height="80" rx="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="330" y="425" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">File Storage</text>
+  <text x="330" y="440" text-anchor="middle" fill="#d5f5e3" font-size="9">Profile Images</text>
+  <text x="330" y="455" text-anchor="middle" fill="#d5f5e3" font-size="9">Clinical Documents</text>
+  <text x="330" y="470" text-anchor="middle" fill="#d5f5e3" font-size="9">Backup Archives</text>
+
+  <rect x="440" y="400" width="160" height="80" rx="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="520" y="425" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Audit Logs</text>
+  <text x="520" y="440" text-anchor="middle" fill="#d5f5e3" font-size="9">Access Logs</text>
+  <text x="520" y="455" text-anchor="middle" fill="#d5f5e3" font-size="9">Error Logs</text>
+  <text x="520" y="470" text-anchor="middle" fill="#d5f5e3" font-size="9">Change History</text>
+
+  <rect x="630" y="400" width="180" height="80" rx="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="720" y="425" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Cache / Sessions</text>
+  <text x="720" y="440" text-anchor="middle" fill="#d5f5e3" font-size="9">JWT Token Store</text>
+  <text x="720" y="455" text-anchor="middle" fill="#d5f5e3" font-size="9">Session Data</text>
+  <text x="720" y="470" text-anchor="middle" fill="#d5f5e3" font-size="9">API Response Cache</text>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 680" style="max-width:1050px;width:100%;font-family:'Segoe UI',Arial,sans-serif;font-size:10px;">
+  <!-- Root -->
+  <rect x="370" y="5" width="310" height="35" rx="8" fill="#1a5276" stroke="#154360" stroke-width="2"/>
+  <text x="525" y="28" text-anchor="middle" fill="#fff" font-weight="bold" font-size="12">Mental Health Support Platform</text>
+  <line x1="525" y1="40" x2="525" y2="60" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="85" y1="60" x2="965" y2="60" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Phase nodes -->
+  <line x1="85" y1="60" x2="85" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="260" y1="60" x2="260" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="435" y1="60" x2="435" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="615" y1="60" x2="615" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="790" y1="60" x2="790" y2="80" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="965" y1="60" x2="965" y2="80" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Phase 1: Discovery -->
+  <rect x="15" y="80" width="140" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="85" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">1. Discovery</text>
+  <text x="85" y="125" text-anchor="middle" fill="#555" font-size="9">Week 1-2</text>
+  <line x1="85" y1="130" x2="85" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="10" y="145" width="150" height="90" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="85" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">1.1 Problem Statement</text>
+  <text x="85" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">1.2 Market Research</text>
+  <text x="85" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">1.3 User Personas</text>
+  <text x="85" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">1.4 Project Vision</text>
+  <text x="85" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">1.5 Competitor Analysis</text>
+
+  <!-- Phase 2: Requirements -->
+  <rect x="190" y="80" width="140" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="260" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">2. Requirements</text>
+  <text x="260" y="125" text-anchor="middle" fill="#555" font-size="9">Week 3-4</text>
+  <line x1="260" y1="130" x2="260" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="185" y="145" width="150" height="105" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="260" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">2.1 Functional Reqs (75)</text>
+  <text x="260" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">2.2 Non-Functional Reqs</text>
+  <text x="260" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">2.3 Use Case Diagrams</text>
+  <text x="260" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">2.4 User Stories</text>
+  <text x="260" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">2.5 SRS Document</text>
+  <text x="260" y="237" text-anchor="middle" fill="#2c3e50" font-size="9">2.6 System Architecture</text>
+
+  <!-- Phase 3: Design -->
+  <rect x="365" y="80" width="140" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="435" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">3. Design</text>
+  <text x="435" y="125" text-anchor="middle" fill="#555" font-size="9">Week 5-6</text>
+  <line x1="435" y1="130" x2="435" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="360" y="145" width="150" height="105" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="435" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">3.1 Database Schema</text>
+  <text x="435" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">3.2 API Specification</text>
+  <text x="435" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">3.3 ERD Design</text>
+  <text x="435" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">3.4 Wireframes (UI/UX)</text>
+  <text x="435" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">3.5 DFD (Gane &amp; Sarson)</text>
+  <text x="435" y="237" text-anchor="middle" fill="#2c3e50" font-size="9">3.6 Class Diagram</text>
+
+  <!-- Phase 4: Development -->
+  <rect x="540" y="80" width="150" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="615" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">4. Development</text>
+  <text x="615" y="125" text-anchor="middle" fill="#555" font-size="9">Week 7-9</text>
+  <line x1="615" y1="130" x2="615" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="535" y="145" width="160" height="120" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="615" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">4.1 Backend (Express APIs)</text>
+  <text x="615" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">4.2 Frontend (React UI)</text>
+  <text x="615" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">4.3 Database Implementation</text>
+  <text x="615" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">4.4 Auth &amp; Security</text>
+  <text x="615" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">4.5 AI Chatbot (OpenAI)</text>
+  <text x="615" y="237" text-anchor="middle" fill="#2c3e50" font-size="9">4.6 Real-time Messaging</text>
+  <text x="615" y="252" text-anchor="middle" fill="#2c3e50" font-size="9">4.7 Feature Integration</text>
+
+  <!-- Phase 5: Testing -->
+  <rect x="720" y="80" width="140" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="790" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">5. Testing</text>
+  <text x="790" y="125" text-anchor="middle" fill="#555" font-size="9">Week 10-11</text>
+  <line x1="790" y1="130" x2="790" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="715" y="145" width="150" height="90" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="790" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">5.1 Unit Testing (Jest)</text>
+  <text x="790" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">5.2 Integration Testing</text>
+  <text x="790" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">5.3 E2E Testing (Cypress)</text>
+  <text x="790" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">5.4 Security Testing</text>
+  <text x="790" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">5.5 UAT</text>
+
+  <!-- Phase 6: Deployment -->
+  <rect x="895" y="80" width="140" height="32" rx="6" fill="#2980b9" stroke="#2471a3" stroke-width="1.5"/>
+  <text x="965" y="100" text-anchor="middle" fill="#fff" font-weight="bold" font-size="11">6. Deployment</text>
+  <text x="965" y="125" text-anchor="middle" fill="#555" font-size="9">Week 11-12</text>
+  <line x1="965" y1="130" x2="965" y2="145" stroke="#aaa" stroke-width="1"/>
+  <rect x="890" y="145" width="150" height="90" rx="4" fill="#eaf2f8" stroke="#85c1e9" stroke-width="1"/>
+  <text x="965" y="162" text-anchor="middle" fill="#2c3e50" font-size="9">6.1 Cloud Deployment</text>
+  <text x="965" y="177" text-anchor="middle" fill="#2c3e50" font-size="9">6.2 CI/CD Pipeline</text>
+  <text x="965" y="192" text-anchor="middle" fill="#2c3e50" font-size="9">6.3 Final Report</text>
+  <text x="965" y="207" text-anchor="middle" fill="#2c3e50" font-size="9">6.4 Demo Presentation</text>
+  <text x="965" y="222" text-anchor="middle" fill="#2c3e50" font-size="9">6.5 Documentation</text>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" style="max-width:700px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="sq6" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#444"/></marker></defs>
+<text x="350" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5276">SD6: Secure Messaging</text>
+<rect x="35" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="80" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Patient</text>
+<line x1="80" y1="77" x2="80" y2="420" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="165" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="210" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Frontend</text>
+<line x1="210" y1="77" x2="210" y2="420" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="325" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="370" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">API Server</text>
+<line x1="370" y1="77" x2="370" y2="420" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="505" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="550" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Database</text>
+<line x1="550" y1="77" x2="550" y2="420" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<line x1="80" y1="102" x2="210" y2="102" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="145" y="97" text-anchor="middle" font-size="9" fill="#333">1. Compose message</text>
+<line x1="210" y1="127" x2="370" y2="127" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="290" y="122" text-anchor="middle" font-size="9" fill="#333">2. POST /messages/send</text>
+<line x1="370" y1="153" x2="370" y2="153" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="370" y="148" text-anchor="middle" font-size="9" fill="#333">3. Encrypt AES-256</text>
+<line x1="370" y1="179" x2="550" y2="179" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="460" y="174" text-anchor="middle" font-size="9" fill="#333">4. INSERT encrypted msg</text>
+<line x1="550" y1="204" x2="370" y2="204" stroke="#888" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="460" y="199" text-anchor="middle" font-size="9" fill="#333">5. Stored</text>
+<line x1="370" y1="230" x2="210" y2="230" stroke="#888" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="290" y="225" text-anchor="middle" font-size="9" fill="#333">6. WebSocket: delivered (&lt;2s)</text>
+<line x1="210" y1="256" x2="80" y2="256" stroke="#888" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="145" y="251" text-anchor="middle" font-size="9" fill="#333">7. Message sent confirmation</text>
+<line x1="370" y1="281" x2="370" y2="281" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="370" y="276" text-anchor="middle" font-size="9" fill="#333">8. Notify recipient</text>
+<line x1="80" y1="307" x2="210" y2="307" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="145" y="302" text-anchor="middle" font-size="9" fill="#333">9. Delete message req</text>
+<line x1="210" y1="333" x2="370" y2="333" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="290" y="328" text-anchor="middle" font-size="9" fill="#333">10. DELETE /messages/{id}</text>
+<line x1="370" y1="358" x2="550" y2="358" stroke="#444" stroke-width="1.5" marker-end="url(#sq6)"/>
+<text x="460" y="353" text-anchor="middle" font-size="9" fill="#333">11. UPDATE soft_delete=true</text>
+<line x1="370" y1="384" x2="210" y2="384" stroke="#888" stroke-width="1.5" marker-end="url(#sq6)" stroke-dasharray="6 3"/>
+<text x="290" y="379" text-anchor="middle" font-size="9" fill="#333">12. Message hidden</text>
+</svg>

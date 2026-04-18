@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" style="max-width:700px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah10" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="350" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 2.8 — Emergency Support</text>
+<line x1="132" y1="92" x2="135" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="136" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Emergency Trigger</text>
+<line x1="210" y1="202" x2="310" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="263" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Activation</text>
+<line x1="310" y1="202" x2="205" y2="71" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="260" y="130" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Crisis Info</text>
+<line x1="450" y1="71" x2="460" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="458" y="130" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Hotline Numbers</text>
+<line x1="135" y1="235" x2="255" y2="320" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="198" y="270" text-anchor="start" font-size="8" fill="#555" font-style="italic">Log Data</text>
+<line x1="180" y1="352" x2="245" y2="427" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="215" y="383" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Emergency Log</text>
+<line x1="330" y1="352" x2="340" y2="427" stroke="#888" stroke-width="1.5" marker-end="url(#ah10)"/>
+<text x="338" y="383" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Audit Entry</text>
+<rect x="60" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="132" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient/User</text>
+<rect x="450" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="522" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E7: Crisis Hotline</text>
+<rect x="50" y="410" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="50" y1="410" x2="245" y2="410" stroke="#82b366" stroke-width="2"/>
+<line x1="50" y1="444" x2="245" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="50" y1="410" x2="50" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="92" y1="410" x2="92" y2="444" stroke="#82b366" stroke-width="1.5"/>
+<text x="71" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D8</text>
+<text x="168" y="432" text-anchor="middle" font-size="10" fill="#1e8449">Emergency Logs</text>
+<rect x="340" y="410" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="340" y1="410" x2="535" y2="410" stroke="#82b366" stroke-width="2"/>
+<line x1="340" y1="444" x2="535" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="340" y1="410" x2="340" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="382" y1="410" x2="382" y2="444" stroke="#82b366" stroke-width="1.5"/>
+<text x="361" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D12</text>
+<text x="458" y="432" text-anchor="middle" font-size="10" fill="#1e8449">Audit Logs</text>
+<rect x="60" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="60" y1="192" x2="210" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="135" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">8.1</text>
+<text x="135" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Activate Emergency</text>
+<text x="135" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Button (&lt;1s)</text>
+<text x="135" y="231" text-anchor="middle" font-size="7" fill="#888">FR38</text>
+<rect x="310" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="310" y1="192" x2="460" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="385" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">8.2</text>
+<text x="385" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Display Crisis</text>
+<text x="385" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Hotline</text>
+<text x="385" y="231" text-anchor="middle" font-size="7" fill="#888">FR39</text>
+<rect x="180" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="180" y1="342" x2="330" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="255" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">8.3</text>
+<text x="255" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Log Emergency</text>
+<text x="255" y="369" text-anchor="middle" font-size="10" fill="#1a5276">Activation</text>
+<text x="255" y="381" text-anchor="middle" font-size="7" fill="#888">FR40</text>
+</svg>

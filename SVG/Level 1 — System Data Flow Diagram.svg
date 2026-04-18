@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" style="max-width:1200px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah2" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="600" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 1 — System Data Flow Diagram</text>
+<line x1="950" y1="71" x2="230" y2="132" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="95" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Credentials</text>
+<line x1="230" y1="132" x2="950" y2="71" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="95" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Auth Token</text>
+<line x1="950" y1="71" x2="500" y2="132" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="95" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Profile Data</text>
+<line x1="950" y1="71" x2="770" y2="132" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="95" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Appt Request</text>
+<line x1="950" y1="291" x2="230" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="315" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Session Notes</text>
+<line x1="230" y1="352" x2="950" y2="291" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="315" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Patient Records</text>
+<line x1="950" y1="291" x2="770" y2="132" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="205" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Approval</text>
+<line x1="950" y1="71" x2="500" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="205" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Chat Messages</text>
+<line x1="950" y1="71" x2="770" y2="352" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="205" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Mood Entries</text>
+<line x1="950" y1="71" x2="500" y2="572" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="315" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Emergency</text>
+<line x1="1022" y1="92" x2="425" y2="980" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="726" y="529" text-anchor="start" font-size="8" fill="#555" font-style="italic">Consent</text>
+<line x1="1022" y1="92" x2="965" y2="100" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="996" y="89" text-anchor="start" font-size="8" fill="#555" font-style="italic">Language Pref</text>
+<line x1="965" y1="100" x2="1022" y2="92" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="996" y="89" text-anchor="start" font-size="8" fill="#555" font-style="italic">Dashboard</text>
+<line x1="950" y1="721" x2="230" y2="792" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="750" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Resource Mgmt</text>
+<line x1="950" y1="721" x2="770" y2="792" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="750" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Admin Commands</text>
+<line x1="500" y1="792" x2="950" y2="721" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="750" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Analytics</text>
+<line x1="230" y1="1012" x2="950" y2="721" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="593" y="860" text-anchor="middle" font-size="8" fill="#555" font-style="italic">System Alerts</text>
+<line x1="770" y1="572" x2="950" y2="511" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="535" text-anchor="middle" font-size="8" fill="#555" font-style="italic">SMS Payload</text>
+<line x1="770" y1="132" x2="950" y2="181" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="150" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Calendar Sync</text>
+<line x1="950" y1="181" x2="770" y2="132" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="150" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Events</text>
+<line x1="770" y1="572" x2="950" y2="611" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="863" y="585" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Email Payload</text>
+<line x1="500" y1="572" x2="950" y2="401" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="480" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Emergency Alert</text>
+<line x1="950" y1="401" x2="500" y2="572" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="728" y="480" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Hotline Data</text>
+<line x1="695" y1="165" x2="695" y2="540" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="698" y="345" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Booking Alert</text>
+<line x1="695" y1="385" x2="695" y2="540" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="698" y="455" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Risk Alerts</text>
+<line x1="230" y1="572" x2="350" y2="572" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="293" y="566" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Escalation</text>
+<line x1="500" y1="572" x2="620" y2="572" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="563" y="566" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Emergency Notif</text>
+<line x1="155" y1="165" x2="695" y2="760" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="428" y="455" text-anchor="start" font-size="8" fill="#555" font-style="italic">Auth Events</text>
+<line x1="425" y1="980" x2="155" y2="385" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="293" y="675" text-anchor="start" font-size="8" fill="#555" font-style="italic">Consent Status</text>
+<line x1="500" y1="1012" x2="620" y2="792" stroke="#888" stroke-width="1.5" marker-end="url(#ah2)"/>
+<text x="563" y="896" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Enforcement</text>
+<rect x="950" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient/User</text>
+<rect x="950" y="270" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="296" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E2: Clinician</text>
+<rect x="950" y="700" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="726" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E3: Administrator</text>
+<rect x="950" y="490" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="516" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E4: SMS Gateway</text>
+<rect x="950" y="160" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E5: Google Calendar</text>
+<rect x="950" y="590" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="616" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E6: Email Service</text>
+<rect x="950" y="380" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="1022" y="406" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E7: Crisis Hotline</text>
+<rect x="80" y="190" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="190" x2="275" y2="190" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="224" x2="275" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="190" x2="80" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="190" x2="122" y2="224" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D1</text>
+<text x="198" y="212" text-anchor="middle" font-size="10" fill="#1e8449">Users &amp; Credentials</text>
+<rect x="350" y="190" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="350" y1="190" x2="545" y2="190" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="224" x2="545" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="190" x2="350" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="392" y1="190" x2="392" y2="224" stroke="#82b366" stroke-width="1.5"/>
+<text x="371" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D2</text>
+<text x="468" y="212" text-anchor="middle" font-size="10" fill="#1e8449">User Profiles</text>
+<rect x="620" y="190" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="620" y1="190" x2="815" y2="190" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="224" x2="815" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="190" x2="620" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="662" y1="190" x2="662" y2="224" stroke="#82b366" stroke-width="1.5"/>
+<text x="641" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D3</text>
+<text x="738" y="212" text-anchor="middle" font-size="10" fill="#1e8449">Appointments</text>
+<rect x="890" y="190" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="890" y1="190" x2="1085" y2="190" stroke="#82b366" stroke-width="2"/>
+<line x1="890" y1="224" x2="1085" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="890" y1="190" x2="890" y2="224" stroke="#82b366" stroke-width="2"/>
+<line x1="932" y1="190" x2="932" y2="224" stroke="#82b366" stroke-width="1.5"/>
+<text x="911" y="212" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D15</text>
+<text x="1008" y="212" text-anchor="middle" font-size="10" fill="#1e8449">Session Data</text>
+<rect x="80" y="410" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="410" x2="275" y2="410" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="444" x2="275" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="410" x2="80" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="410" x2="122" y2="444" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D4</text>
+<text x="198" y="432" text-anchor="middle" font-size="10" fill="#1e8449">Clinical Records</text>
+<rect x="350" y="410" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="350" y1="410" x2="545" y2="410" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="444" x2="545" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="410" x2="350" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="392" y1="410" x2="392" y2="444" stroke="#82b366" stroke-width="1.5"/>
+<text x="371" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D5</text>
+<text x="468" y="432" text-anchor="middle" font-size="10" fill="#1e8449">Chat Messages</text>
+<rect x="620" y="410" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="620" y1="410" x2="815" y2="410" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="444" x2="815" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="410" x2="620" y2="444" stroke="#82b366" stroke-width="2"/>
+<line x1="662" y1="410" x2="662" y2="444" stroke="#82b366" stroke-width="1.5"/>
+<text x="641" y="432" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D6</text>
+<text x="738" y="432" text-anchor="middle" font-size="10" fill="#1e8449">Mood Entries</text>
+<rect x="80" y="630" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="630" x2="275" y2="630" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="664" x2="275" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="630" x2="80" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="630" x2="122" y2="664" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="652" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D7</text>
+<text x="198" y="652" text-anchor="middle" font-size="10" fill="#1e8449">Chatbot Transcripts</text>
+<rect x="350" y="630" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="350" y1="630" x2="545" y2="630" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="664" x2="545" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="630" x2="350" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="392" y1="630" x2="392" y2="664" stroke="#82b366" stroke-width="1.5"/>
+<text x="371" y="652" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D8</text>
+<text x="468" y="652" text-anchor="middle" font-size="10" fill="#1e8449">Emergency Logs</text>
+<rect x="620" y="630" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="620" y1="630" x2="815" y2="630" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="664" x2="815" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="630" x2="620" y2="664" stroke="#82b366" stroke-width="2"/>
+<line x1="662" y1="630" x2="662" y2="664" stroke="#82b366" stroke-width="1.5"/>
+<text x="641" y="652" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D9</text>
+<text x="738" y="652" text-anchor="middle" font-size="10" fill="#1e8449">Notification Queue</text>
+<rect x="80" y="850" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="850" x2="275" y2="850" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="884" x2="275" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="850" x2="80" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="850" x2="122" y2="884" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="872" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D10</text>
+<text x="198" y="872" text-anchor="middle" font-size="10" fill="#1e8449">Resource Library</text>
+<rect x="350" y="850" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="350" y1="850" x2="545" y2="850" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="884" x2="545" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="850" x2="350" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="392" y1="850" x2="392" y2="884" stroke="#82b366" stroke-width="1.5"/>
+<text x="371" y="872" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D11</text>
+<text x="468" y="872" text-anchor="middle" font-size="10" fill="#1e8449">Analytics Data</text>
+<rect x="620" y="850" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="620" y1="850" x2="815" y2="850" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="884" x2="815" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="850" x2="620" y2="884" stroke="#82b366" stroke-width="2"/>
+<line x1="662" y1="850" x2="662" y2="884" stroke="#82b366" stroke-width="1.5"/>
+<text x="641" y="872" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D12</text>
+<text x="738" y="872" text-anchor="middle" font-size="10" fill="#1e8449">Audit Logs</text>
+<rect x="80" y="1070" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="1070" x2="275" y2="1070" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="1104" x2="275" y2="1104" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="1070" x2="80" y2="1104" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="1070" x2="122" y2="1104" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="1092" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D13</text>
+<text x="198" y="1092" text-anchor="middle" font-size="10" fill="#1e8449">System Backups</text>
+<rect x="350" y="1070" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="350" y1="1070" x2="545" y2="1070" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="1104" x2="545" y2="1104" stroke="#82b366" stroke-width="2"/>
+<line x1="350" y1="1070" x2="350" y2="1104" stroke="#82b366" stroke-width="2"/>
+<line x1="392" y1="1070" x2="392" y2="1104" stroke="#82b366" stroke-width="1.5"/>
+<text x="371" y="1092" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D14</text>
+<text x="468" y="1092" text-anchor="middle" font-size="10" fill="#1e8449">Consent Records</text>
+<rect x="80" y="100" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="80" y1="122" x2="230" y2="122" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">1.0</text>
+<text x="155" y="136" text-anchor="middle" font-size="10" fill="#1a5276">Authentication</text>
+<text x="155" y="149" text-anchor="middle" font-size="10" fill="#1a5276">&amp; Account Mgmt</text>
+<text x="155" y="161" text-anchor="middle" font-size="7" fill="#888">FR1-5,FR8</text>
+<rect x="350" y="100" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="350" y1="122" x2="500" y2="122" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="425" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">2.0</text>
+<text x="425" y="136" text-anchor="middle" font-size="10" fill="#1a5276">Profile</text>
+<text x="425" y="149" text-anchor="middle" font-size="10" fill="#1a5276">Management</text>
+<text x="425" y="161" text-anchor="middle" font-size="7" fill="#888">FR6-7</text>
+<rect x="620" y="100" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="620" y1="122" x2="770" y2="122" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="695" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">3.0</text>
+<text x="695" y="136" text-anchor="middle" font-size="10" fill="#1a5276">Appointment</text>
+<text x="695" y="149" text-anchor="middle" font-size="10" fill="#1a5276">Management</text>
+<text x="695" y="161" text-anchor="middle" font-size="7" fill="#888">FR9-12,14-15,67-69</text>
+<rect x="890" y="100" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="890" y1="122" x2="1040" y2="122" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="965" y="116" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">15.0</text>
+<text x="965" y="136" text-anchor="middle" font-size="10" fill="#1a5276">UI &amp;</text>
+<text x="965" y="149" text-anchor="middle" font-size="10" fill="#1a5276">Localization</text>
+<text x="965" y="161" text-anchor="middle" font-size="7" fill="#888">FR49-50</text>
+<rect x="80" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="80" y1="342" x2="230" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">4.0</text>
+<text x="155" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Clinical Records</text>
+<text x="155" y="369" text-anchor="middle" font-size="10" fill="#1a5276">Management</text>
+<text x="155" y="381" text-anchor="middle" font-size="7" fill="#888">FR16-22,51-53</text>
+<rect x="350" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="350" y1="342" x2="500" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="425" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">5.0</text>
+<text x="425" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Messaging</text>
+<text x="425" y="369" text-anchor="middle" font-size="10" fill="#1a5276">System</text>
+<text x="425" y="381" text-anchor="middle" font-size="7" fill="#888">FR23-26</text>
+<rect x="620" y="320" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="620" y1="342" x2="770" y2="342" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="695" y="336" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.0</text>
+<text x="695" y="356" text-anchor="middle" font-size="10" fill="#1a5276">Mood Tracking</text>
+<text x="695" y="369" text-anchor="middle" font-size="10" fill="#1a5276">&amp; Analysis</text>
+<text x="695" y="381" text-anchor="middle" font-size="7" fill="#888">FR27-31</text>
+<rect x="80" y="540" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="80" y1="562" x2="230" y2="562" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155" y="556" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">7.0</text>
+<text x="155" y="576" text-anchor="middle" font-size="10" fill="#1a5276">AI Chatbot</text>
+<text x="155" y="589" text-anchor="middle" font-size="10" fill="#1a5276">System</text>
+<text x="155" y="601" text-anchor="middle" font-size="7" fill="#888">FR32-36</text>
+<rect x="350" y="540" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="350" y1="562" x2="500" y2="562" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="425" y="556" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">8.0</text>
+<text x="425" y="576" text-anchor="middle" font-size="10" fill="#1a5276">Emergency</text>
+<text x="425" y="589" text-anchor="middle" font-size="10" fill="#1a5276">Support</text>
+<text x="425" y="601" text-anchor="middle" font-size="7" fill="#888">FR38-40</text>
+<rect x="620" y="540" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="620" y1="562" x2="770" y2="562" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="695" y="556" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">9.0</text>
+<text x="695" y="576" text-anchor="middle" font-size="10" fill="#1a5276">Notification</text>
+<text x="695" y="589" text-anchor="middle" font-size="10" fill="#1a5276">Engine</text>
+<text x="695" y="601" text-anchor="middle" font-size="7" fill="#888">FR13,37,57-59,68</text>
+<rect x="80" y="760" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="80" y1="782" x2="230" y2="782" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155" y="776" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">10.0</text>
+<text x="155" y="796" text-anchor="middle" font-size="10" fill="#1a5276">Content &amp; Resource</text>
+<text x="155" y="809" text-anchor="middle" font-size="10" fill="#1a5276">Management</text>
+<text x="155" y="821" text-anchor="middle" font-size="7" fill="#888">FR41-43</text>
+<rect x="350" y="760" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="350" y1="782" x2="500" y2="782" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="425" y="776" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">11.0</text>
+<text x="425" y="796" text-anchor="middle" font-size="10" fill="#1a5276">Analytics &amp;</text>
+<text x="425" y="809" text-anchor="middle" font-size="10" fill="#1a5276">Reporting</text>
+<text x="425" y="821" text-anchor="middle" font-size="7" fill="#888">FR44,61,70-72,74</text>
+<rect x="620" y="760" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="620" y1="782" x2="770" y2="782" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="695" y="776" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">12.0</text>
+<text x="695" y="796" text-anchor="middle" font-size="10" fill="#1a5276">Administration &amp;</text>
+<text x="695" y="809" text-anchor="middle" font-size="10" fill="#1a5276">Access Control</text>
+<text x="695" y="821" text-anchor="middle" font-size="7" fill="#888">FR60,62-66</text>
+<rect x="80" y="980" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="80" y1="1002" x2="230" y2="1002" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="155" y="996" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">13.0</text>
+<text x="155" y="1016" text-anchor="middle" font-size="10" fill="#1a5276">System Maint</text>
+<text x="155" y="1029" text-anchor="middle" font-size="10" fill="#1a5276">&amp; Backup</text>
+<text x="155" y="1041" text-anchor="middle" font-size="7" fill="#888">FR45-48,73,75</text>
+<rect x="350" y="980" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="350" y1="1002" x2="500" y2="1002" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="425" y="996" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">14.0</text>
+<text x="425" y="1016" text-anchor="middle" font-size="10" fill="#1a5276">Privacy &amp;</text>
+<text x="425" y="1029" text-anchor="middle" font-size="10" fill="#1a5276">Compliance</text>
+<text x="425" y="1041" text-anchor="middle" font-size="7" fill="#888">FR54-56</text>
+</svg>

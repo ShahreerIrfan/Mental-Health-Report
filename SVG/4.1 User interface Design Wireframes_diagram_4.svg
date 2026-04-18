@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" style="max-width:700px;width:100%;font-family:'Comic Sans MS','Segoe UI',sans-serif;background:#fff;border:2px solid #888;">
+  <rect x="0" y="0" width="700" height="400" fill="#f5f5f5"/>
+  <text x="30" y="35" fill="#2c3e50" font-size="16" font-weight="bold">Secure Messages 🔒</text>
+  <!-- Contact list -->
+  <rect x="20" y="50" width="200" height="330" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="40" y="75" fill="#2c3e50" font-size="12" font-weight="bold">Conversations</text>
+  <rect x="30" y="85" width="180" height="40" rx="4" fill="#d4e6f1" stroke="#2980b9" stroke-width="1"/>
+  <text x="40" y="105" fill="#1a5276" font-size="11" font-weight="bold">Dr. Smith</text>
+  <text x="40" y="118" fill="#777" font-size="9">Online • Last msg 2h ago</text>
+  <rect x="30" y="130" width="180" height="40" rx="4" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <text x="40" y="150" fill="#555" font-size="11">AI Assistant</text>
+  <text x="40" y="163" fill="#777" font-size="9">Available 24/7</text>
+
+  <!-- Chat area -->
+  <rect x="235" y="50" width="445" height="280" rx="8" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="255" y="75" fill="#2c3e50" font-size="12" font-weight="bold">Dr. Smith</text>
+  <text x="585" y="75" fill="#27ae60" font-size="10">● Online</text>
+  <!-- Messages -->
+  <rect x="250" y="90" width="230" height="35" rx="12" fill="#eaf2f8"/>
+  <text x="265" y="112" fill="#555" font-size="10">How are you feeling today, John?</text>
+  <rect x="430" y="135" width="230" height="35" rx="12" fill="#2980b9"/>
+  <text x="445" y="157" fill="#fff" font-size="10">Feeling better, thanks! Score: 7</text>
+  <rect x="250" y="180" width="280" height="35" rx="12" fill="#eaf2f8"/>
+  <text x="265" y="202" fill="#555" font-size="10">Great improvement! Let's discuss in our next session.</text>
+  <text x="255" y="240" fill="#888" font-size="9">🔒 AES-256 encrypted • Transcripts stored securely</text>
+
+  <!-- Input -->
+  <rect x="235" y="340" width="370" height="35" rx="5" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="250" y="362" fill="#aaa" font-size="11">Type a message...</text>
+  <rect x="615" y="340" width="65" height="35" rx="5" fill="#2980b9"/>
+  <text x="648" y="362" text-anchor="middle" fill="#fff" font-size="11">Send</text>
+</svg>

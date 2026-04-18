@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" style="max-width:900px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah8" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="450" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 2.6 — Mood Tracking &amp; Analysis</text>
+<line x1="340" y1="71" x2="180" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="263" y="130" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Mood Data</text>
+<line x1="180" y1="202" x2="200" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="193" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">New Entry</text>
+<line x1="350" y1="202" x2="370" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="363" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Valid Entry</text>
+<line x1="520" y1="202" x2="540" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="533" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Consecutive Low</text>
+<line x1="520" y1="202" x2="700" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="613" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Patterns</text>
+<line x1="445" y1="170" x2="412" y2="92" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="431" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Weekly Report</text>
+<line x1="700" y1="202" x2="485" y2="71" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="595" y="130" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Resources</text>
+<line x1="105" y1="235" x2="177" y2="350" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="144" y="285" text-anchor="start" font-size="8" fill="#555" font-style="italic">Stored Entry</text>
+<line x1="275" y1="235" x2="177" y2="350" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="229" y="285" text-anchor="start" font-size="8" fill="#555" font-style="italic">Dup Check</text>
+<line x1="615" y1="235" x2="477" y2="350" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="549" y="285" text-anchor="start" font-size="8" fill="#555" font-style="italic">Risk Alert</text>
+<line x1="775" y1="235" x2="717" y2="350" stroke="#888" stroke-width="1.5" marker-end="url(#ah8)"/>
+<text x="749" y="285" text-anchor="start" font-size="8" fill="#555" font-style="italic">Resource Query</text>
+<rect x="340" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="412" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient / User</text>
+<rect x="80" y="350" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="80" y1="350" x2="275" y2="350" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="384" x2="275" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="80" y1="350" x2="80" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="122" y1="350" x2="122" y2="384" stroke="#82b366" stroke-width="1.5"/>
+<text x="101" y="372" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D6</text>
+<text x="198" y="372" text-anchor="middle" font-size="10" fill="#1e8449">Mood Entries</text>
+<rect x="380" y="350" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="380" y1="350" x2="575" y2="350" stroke="#82b366" stroke-width="2"/>
+<line x1="380" y1="384" x2="575" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="380" y1="350" x2="380" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="422" y1="350" x2="422" y2="384" stroke="#82b366" stroke-width="1.5"/>
+<text x="401" y="372" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D9</text>
+<text x="498" y="372" text-anchor="middle" font-size="10" fill="#1e8449">Notification Queue</text>
+<rect x="620" y="350" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="620" y1="350" x2="815" y2="350" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="384" x2="815" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="620" y1="350" x2="620" y2="384" stroke="#82b366" stroke-width="2"/>
+<line x1="662" y1="350" x2="662" y2="384" stroke="#82b366" stroke-width="1.5"/>
+<text x="641" y="372" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D10</text>
+<text x="738" y="372" text-anchor="middle" font-size="10" fill="#1e8449">Resource Library</text>
+<rect x="30" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="30" y1="192" x2="180" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="105" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.1</text>
+<text x="105" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Submit Mood</text>
+<text x="105" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Entry</text>
+<text x="105" y="231" text-anchor="middle" font-size="7" fill="#888">FR27</text>
+<rect x="200" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="200" y1="192" x2="350" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="275" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.2</text>
+<text x="275" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Prevent</text>
+<text x="275" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Duplicate</text>
+<text x="275" y="231" text-anchor="middle" font-size="7" fill="#888">FR28</text>
+<rect x="370" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="370" y1="192" x2="520" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="445" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.3</text>
+<text x="445" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Weekly Mood</text>
+<text x="445" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Report</text>
+<text x="445" y="231" text-anchor="middle" font-size="7" fill="#888">FR29</text>
+<rect x="540" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="540" y1="192" x2="690" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="615" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.4</text>
+<text x="615" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Trigger Risk</text>
+<text x="615" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Alert</text>
+<text x="615" y="231" text-anchor="middle" font-size="7" fill="#888">FR30</text>
+<rect x="700" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="700" y1="192" x2="850" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="775" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">6.5</text>
+<text x="775" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Recommend</text>
+<text x="775" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Resources</text>
+<text x="775" y="231" text-anchor="middle" font-size="7" fill="#888">FR31</text>
+</svg>

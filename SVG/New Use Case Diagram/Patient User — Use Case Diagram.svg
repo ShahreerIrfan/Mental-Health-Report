@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 960" style="font-family:'Segoe UI',Calibri,Arial,sans-serif;">
+  <defs>
+    <marker id="arrowP" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <path d="M0,0 L10,3.5 L0,7" fill="none" stroke="#555" stroke-width="1.2"/>
+    </marker>
+    <filter id="es">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15" flood-color="#000"/>
+    </filter>
+  </defs>
+
+  <!-- White Background -->
+  <rect width="1100" height="960" fill="#ffffff"/>
+
+  <!-- System Boundary Box -->
+  <rect x="172" y="12" width="730" height="900" rx="8" fill="#48D1CC" stroke="#CC0000" stroke-width="3.5"/>
+
+  <!-- Title -->
+  <text x="537" y="42" text-anchor="middle" font-size="18" font-weight="bold" font-style="italic" fill="#333">Use Case Diagram for Patient / User</text>
+  <text x="537" y="58" text-anchor="middle" font-size="11" font-style="italic" fill="#444">Mental Health Support Platform</text>
+
+  <!-- PATIENT ACTOR (Left) -->
+  <g transform="translate(80,480)">
+    <circle cx="0" cy="-28" r="14" fill="none" stroke="#4B0082" stroke-width="2.5"/>
+    <line x1="0" y1="-14" x2="0" y2="18" stroke="#4B0082" stroke-width="2.5"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#4B0082" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-14" y2="40" stroke="#4B0082" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="14" y2="40" stroke="#4B0082" stroke-width="2.5"/>
+    <text x="0" y="58" text-anchor="middle" font-size="14" font-weight="bold" fill="#4B0082">Patient</text>
+  </g>
+
+  <!-- AI SYSTEM ACTOR (Right) -->
+  <g transform="translate(1020,550)">
+    <circle cx="0" cy="-28" r="14" fill="none" stroke="#800000" stroke-width="2.5"/>
+    <line x1="0" y1="-14" x2="0" y2="18" stroke="#800000" stroke-width="2.5"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#800000" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="-14" y2="40" stroke="#800000" stroke-width="2.5"/>
+    <line x1="0" y1="18" x2="14" y2="40" stroke="#800000" stroke-width="2.5"/>
+    <text x="0" y="58" text-anchor="middle" font-size="12" font-weight="bold" fill="#800000">AI System</text>
+  </g>
+
+  <!-- Row 1: y=92 -->
+  <ellipse cx="370" cy="92" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Register Account (FR1)</text>
+  <ellipse cx="700" cy="92" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="97" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Verify OTP (FR2)</text>
+  <line x1="495" y1="92" x2="575" y2="92" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="84" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 2: y=160 -->
+  <ellipse cx="370" cy="160" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="165" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Reset Password (FR5)</text>
+  <ellipse cx="700" cy="160" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="165" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Login / Logout (FR8)</text>
+  <line x1="495" y1="160" x2="575" y2="160" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="152" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 3: y=228 -->
+  <ellipse cx="370" cy="228" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="233" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Update Profile (FR6)</text>
+  <ellipse cx="700" cy="228" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="233" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Upload Profile Image (FR7)</text>
+  <line x1="495" y1="228" x2="575" y2="228" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="220" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 4: y=300 -->
+  <ellipse cx="370" cy="300" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="305" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Submit Mood Entry (FR27)</text>
+  <ellipse cx="700" cy="300" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="305" text-anchor="middle" font-size="11" font-weight="600" fill="#333">View Dashboard (FR50)</text>
+  <line x1="495" y1="300" x2="575" y2="300" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="292" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 5: y=368 -->
+  <ellipse cx="370" cy="368" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="373" text-anchor="middle" font-size="10.5" font-weight="600" fill="#333">View Weekly Mood Report (FR29)</text>
+  <ellipse cx="700" cy="368" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="373" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Book Appointment (FR9)</text>
+  <line x1="495" y1="368" x2="575" y2="368" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="360" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 6: y=436 -->
+  <ellipse cx="370" cy="436" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="441" text-anchor="middle" font-size="10.5" font-weight="600" fill="#333">Reschedule Appointment (FR11)</text>
+  <ellipse cx="700" cy="436" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="441" text-anchor="middle" font-size="10.5" font-weight="600" fill="#333">Sync Google Calendar (FR67)</text>
+  <line x1="495" y1="436" x2="575" y2="436" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="428" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 7: y=504 -->
+  <ellipse cx="370" cy="504" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="509" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Send Chat Message (FR23)</text>
+  <ellipse cx="700" cy="504" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="509" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Delete Chat (FR26)</text>
+  <line x1="495" y1="504" x2="575" y2="504" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="496" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 8: y=572 -->
+  <ellipse cx="370" cy="572" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="577" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Use AI Chatbot (FR32)</text>
+  <ellipse cx="700" cy="572" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="577" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Escalate to Human (FR33)</text>
+  <line x1="495" y1="572" x2="575" y2="572" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="564" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 9: y=640 -->
+  <ellipse cx="370" cy="640" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="645" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Trigger Emergency (FR38)</text>
+  <ellipse cx="700" cy="640" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="645" text-anchor="middle" font-size="11" font-weight="600" fill="#333">AI Risk Alert Trigger (FR30)</text>
+  <line x1="495" y1="640" x2="575" y2="640" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="632" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 10: y=708 -->
+  <ellipse cx="370" cy="708" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="713" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Manage Consent (FR54)</text>
+  <ellipse cx="700" cy="708" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="713" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Revoke Access (FR55)</text>
+  <line x1="495" y1="708" x2="575" y2="708" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="700" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 11: y=776 -->
+  <ellipse cx="370" cy="776" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#333">View Crisis Hotlines (FR39)</text>
+  <ellipse cx="700" cy="776" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="781" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Download Records (FR53)</text>
+  <line x1="495" y1="776" x2="575" y2="776" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="768" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- Row 12: y=844 -->
+  <ellipse cx="370" cy="844" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="370" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Access Resources (FR43)</text>
+  <ellipse cx="700" cy="844" rx="125" ry="22" fill="#FFA726" stroke="#E68A00" stroke-width="1.8" filter="url(#es)"/>
+  <text x="700" y="849" text-anchor="middle" font-size="11" font-weight="600" fill="#333">Select Language (FR49)</text>
+  <line x1="495" y1="844" x2="575" y2="844" stroke="#555" stroke-width="1.5" stroke-dasharray="8 4" marker-end="url(#arrowP)"/>
+  <text x="535" y="836" text-anchor="middle" font-size="9.5" font-weight="600" font-style="italic" fill="#555">&lt;&lt;include&gt;&gt;</text>
+
+  <!-- ACTOR → USE CASE CONNECTIONS -->
+  <line x1="100" y1="458" x2="245" y2="92" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="461" x2="245" y2="160" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="464" x2="245" y2="228" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="467" x2="245" y2="300" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="470" x2="245" y2="368" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="475" x2="245" y2="436" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="480" x2="245" y2="504" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="485" x2="245" y2="572" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="490" x2="245" y2="640" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="495" x2="245" y2="708" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="500" x2="245" y2="776" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="100" y1="505" x2="245" y2="844" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- AI System connections -->
+  <line x1="1000" y1="535" x2="825" y2="572" stroke="#800000" stroke-width="1.2" stroke-dasharray="6 3" opacity="0.5"/>
+  <line x1="1000" y1="545" x2="825" y2="640" stroke="#800000" stroke-width="1.2" stroke-dasharray="6 3" opacity="0.5"/>
+
+  <!-- Footer -->
+  <text x="537" y="935" text-anchor="middle" font-size="9" fill="#666" font-style="italic">Figure 5.1 — Patient/User Use Case Diagram | Mental Health Support Platform | Mel23 Tech Solution</text>
+  <text x="537" y="950" text-anchor="middle" font-size="8" fill="#999">© 2026 Mel23 Tech Solution — Kent Institute of Technology Australia</text>
+</svg>

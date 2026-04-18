@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" style="max-width:700px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="sq1" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#444"/></marker></defs>
+<text x="350" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a5276">SD1: User Registration &amp; Login</text>
+<rect x="35" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="80" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Patient</text>
+<line x1="80" y1="77" x2="80" y2="460" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="175" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="220" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Frontend</text>
+<line x1="220" y1="77" x2="220" y2="460" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="335" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="380" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">API Server</text>
+<line x1="380" y1="77" x2="380" y2="460" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<rect x="505" y="45" width="90" height="32" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5" rx="4"/>
+<text x="550" y="65" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Database</text>
+<line x1="550" y1="77" x2="550" y2="460" stroke="#aaa" stroke-width="1" stroke-dasharray="5 3"/>
+<line x1="80" y1="102" x2="220" y2="102" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="150" y="97" text-anchor="middle" font-size="9" fill="#333">1. Enter Registration Data</text>
+<line x1="220" y1="133" x2="380" y2="133" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="300" y="128" text-anchor="middle" font-size="9" fill="#333">2. POST /auth/register</text>
+<line x1="380" y1="165" x2="550" y2="165" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="465" y="160" text-anchor="middle" font-size="9" fill="#333">3. INSERT user record</text>
+<line x1="550" y1="196" x2="380" y2="196" stroke="#888" stroke-width="1.5" marker-end="url(#sq1)" stroke-dasharray="6 3"/>
+<text x="465" y="191" text-anchor="middle" font-size="9" fill="#333">4. User created (201)</text>
+<line x1="380" y1="228" x2="220" y2="228" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="300" y="223" text-anchor="middle" font-size="9" fill="#333">5. Send OTP to email</text>
+<line x1="80" y1="260" x2="220" y2="260" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="150" y="255" text-anchor="middle" font-size="9" fill="#333">6. Enter OTP code</text>
+<line x1="220" y1="291" x2="380" y2="291" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="300" y="286" text-anchor="middle" font-size="9" fill="#333">7. POST /auth/verify-otp</text>
+<line x1="380" y1="323" x2="550" y2="323" stroke="#444" stroke-width="1.5" marker-end="url(#sq1)"/>
+<text x="465" y="318" text-anchor="middle" font-size="9" fill="#333">8. UPDATE verified=true</text>
+<line x1="550" y1="355" x2="380" y2="355" stroke="#888" stroke-width="1.5" marker-end="url(#sq1)" stroke-dasharray="6 3"/>
+<text x="465" y="350" text-anchor="middle" font-size="9" fill="#333">9. Verified</text>
+<line x1="380" y1="386" x2="220" y2="386" stroke="#888" stroke-width="1.5" marker-end="url(#sq1)" stroke-dasharray="6 3"/>
+<text x="300" y="381" text-anchor="middle" font-size="9" fill="#333">10. JWT Token</text>
+<line x1="220" y1="418" x2="80" y2="418" stroke="#888" stroke-width="1.5" marker-end="url(#sq1)" stroke-dasharray="6 3"/>
+<text x="150" y="413" text-anchor="middle" font-size="9" fill="#333">11. Dashboard rendered</text>
+</svg>

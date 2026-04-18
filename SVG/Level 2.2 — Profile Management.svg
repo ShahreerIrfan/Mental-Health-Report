@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 420" style="max-width:650px;width:100%;font-family:Segoe UI,Arial,sans-serif;background:#ffffff;border:1.5px solid #ccc;border-radius:8px;">
+<defs><marker id="ah4" viewBox="0 0 10 7" refX="9" refY="3.5" markerWidth="8" markerHeight="6" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#666"/></marker></defs>
+<text x="325" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a5276">Level 2.2 — Profile Management</text>
+<line x1="292" y1="92" x2="175" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#ah4)"/>
+<text x="236" y="124" text-anchor="start" font-size="8" fill="#555" font-style="italic">Profile Fields</text>
+<line x1="365" y1="71" x2="370" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah4)"/>
+<text x="370" y="130" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Image File</text>
+<line x1="250" y1="202" x2="370" y2="202" stroke="#888" stroke-width="1.5" marker-end="url(#ah4)"/>
+<text x="313" y="196" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Profile Context</text>
+<line x1="175" y1="235" x2="297" y2="330" stroke="#888" stroke-width="1.5" marker-end="url(#ah4)"/>
+<text x="239" y="275" text-anchor="start" font-size="8" fill="#555" font-style="italic">Validated Data</text>
+<line x1="370" y1="202" x2="395" y2="347" stroke="#888" stroke-width="1.5" marker-end="url(#ah4)"/>
+<text x="385" y="268" text-anchor="middle" font-size="8" fill="#555" font-style="italic">Image URL</text>
+<rect x="220" y="50" width="145" height="42" fill="#f8cecc" stroke="#b85450" stroke-width="2" rx="2"/>
+<text x="292" y="76" text-anchor="middle" font-size="11" font-weight="bold" fill="#922b21">E1: Patient / User</text>
+<rect x="200" y="330" width="195" height="34" fill="#d5f5e3" stroke="none"/>
+<line x1="200" y1="330" x2="395" y2="330" stroke="#82b366" stroke-width="2"/>
+<line x1="200" y1="364" x2="395" y2="364" stroke="#82b366" stroke-width="2"/>
+<line x1="200" y1="330" x2="200" y2="364" stroke="#82b366" stroke-width="2"/>
+<line x1="242" y1="330" x2="242" y2="364" stroke="#82b366" stroke-width="1.5"/>
+<text x="221" y="352" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e8449">D2</text>
+<text x="318" y="352" text-anchor="middle" font-size="10" fill="#1e8449">User Profiles</text>
+<rect x="100" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="100" y1="192" x2="250" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="175" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">2.1</text>
+<text x="175" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Update Profile</text>
+<text x="175" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Fields</text>
+<text x="175" y="231" text-anchor="middle" font-size="7" fill="#888">FR6</text>
+<rect x="370" y="170" width="150" height="65" rx="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+<line x1="370" y1="192" x2="520" y2="192" stroke="#6c8ebf" stroke-width="1.5"/>
+<text x="445" y="186" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">2.2</text>
+<text x="445" y="206" text-anchor="middle" font-size="10" fill="#1a5276">Upload Profile</text>
+<text x="445" y="219" text-anchor="middle" font-size="10" fill="#1a5276">Image (&lt;2MB)</text>
+<text x="445" y="231" text-anchor="middle" font-size="7" fill="#888">FR7</text>
+</svg>
